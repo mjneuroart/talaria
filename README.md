@@ -1,5 +1,7 @@
 # Talaria
 
+![Talaria banner: a dove in flight above a winged sneaker, on a cobalt blue field](assets/banner.jpg)
+
 iOS Shortcuts for Hermes: author them in plain language, compile them, sign them with an
 Apple certificate, and audit them before they reach the phone — on Linux, with no Mac in the
 loop.
