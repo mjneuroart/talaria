@@ -62,7 +62,7 @@ All work in this repository was written for Talaria.
 - `scripts/scan_plugin_payloads.py .` — exit 0: no compiled binary, no committed bytecode, no
   unreviewable archive. The LZFSE/LZVN decoder is a Python port, and the test vectors are base64
   in a JSON file, so nothing machine-readable is shipped.
-- Test suite: 66 tests, `python3 -m unittest discover -s tests/python`. Without the compiler
+- Test suite: 98 tests, `python3 -m unittest discover -s tests/python`. Without the compiler
   installed it still runs, skipping 15 build/sign tests instead of failing.
 - Real tool calls on this machine: `talaria_status` reports compiler v2.4.0 and a working
   `bwrap`; `talaria_build` on the 16-action demo returns `artifact_id 65652a9668bde007`,
