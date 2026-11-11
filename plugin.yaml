@@ -1,0 +1,30 @@
+name: hermes-shortcuts
+version: "0.3.0"
+manifest_version: 2
+description: >-
+  Apple Shortcuts for Hermes, with no Mac. Describe a workflow and get reviewable Cherri
+  source, a .shortcut compiled in a network-less sandbox, an Apple-signed file delivered to
+  your phone, and an audit of any shortcut, yours or a shared iCloud link, before it is installed.
+author: "Mike-Jeason Leca"
+license: MIT
+homepage: https://github.com/mjneuroart/talaria
+tags:
+  - ios
+  - shortcuts
+  - cherri
+  - signing
+  - mobile
+  - automation
+requires_hermes: ">=0.23.1"
+provides_tools:
+  - talaria_status
+  - talaria_setup
+  - talaria_actions
+  - talaria_build
+  - talaria_sign
+  - talaria_inspect
+  - talaria_library
+provides_hooks:
+  - pre_tool_call
+platforms:
+  - linux

@@ -1,0 +1,8512 @@
+{
+ "source": "Cherri v2.4.0 shipped action docs",
+ "count": 429,
+ "actions": [
+  {
+   "family": "a11y",
+   "name": "magnifierDescribe",
+   "title": "Describe This",
+   "signature": "magnifierDescribe()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "magnifierPointAndSpeak",
+   "title": "Start Point & Speak",
+   "signature": "magnifierPointAndSpeak()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "magnifierReader",
+   "title": "Open Reader",
+   "signature": "magnifierReader()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setAutoAnswerCalls",
+   "title": "Set Auto Answer Calls",
+   "signature": "setAutoAnswerCalls(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setBackgroundSound",
+   "title": "",
+   "signature": "setBackgroundSound(backgroundSound ?sound = \"BalancedNoise\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "backgroundSound",
+     "name": "sound",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setBackgroundSounds",
+   "title": "Set Background Sounds",
+   "signature": "setBackgroundSounds(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setBackgroundSoundsVolume",
+   "title": "Set Background Sound Volume",
+   "signature": "setBackgroundSoundsVolume(number volume)",
+   "summary": "",
+   "params": [
+    {
+     "type": "number",
+     "name": "volume",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setClassicInvert",
+   "title": "Set Classic Invert",
+   "signature": "setClassicInvert(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setClosedCaptionsSDH",
+   "title": "Set Closed Captions SDH",
+   "signature": "setClosedCaptionsSDH(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setColorFilters",
+   "title": "Set Color Filters",
+   "signature": "setColorFilters(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setContrast",
+   "title": "Set Contrast",
+   "signature": "setContrast(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setLEDFlash",
+   "title": "Set LED Flash",
+   "signature": "setLEDFlash(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setLeftRightBalance",
+   "title": "Set Left-Right Balance",
+   "signature": "setLeftRightBalance(bool status, number ?value)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "number",
+     "name": "value",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setLiveCaptions",
+   "title": "Set Live Captions",
+   "signature": "setLiveCaptions(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setMediaBackgroundSounds",
+   "title": "Set Media Background Sounds",
+   "signature": "setMediaBackgroundSounds(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setMonoAudio",
+   "title": "Set Mono Audio",
+   "signature": "setMonoAudio(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setReduceMotion",
+   "title": "Set Reduce Motion",
+   "signature": "setReduceMotion(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setReduceTransparency",
+   "title": "Set Reduce Transparency",
+   "signature": "setReduceTransparency(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setSmartInvert",
+   "title": "Set Smart Invert",
+   "signature": "setSmartInvert(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setSoundRecognition",
+   "title": "",
+   "signature": "setSoundRecognition(soundRecognitionOperations ?operation = \"activate\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "soundRecognitionOperations",
+     "name": "operation",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setSwitchControl",
+   "title": "Set Switch Control",
+   "signature": "setSwitchControl(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setTextSize",
+   "title": "",
+   "signature": "setTextSize(textSizes size)",
+   "summary": "",
+   "params": [
+    {
+     "type": "textSizes",
+     "name": "size",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setVoiceControl",
+   "title": "Set Voice Control",
+   "signature": "setVoiceControl(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setWhitePoint",
+   "title": "Set White Point",
+   "signature": "setWhitePoint(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "setZoom",
+   "title": "Set Zoom",
+   "signature": "setZoom(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "toggleAutoAnswerCalls",
+   "title": "Toggle Auto Answer Calls",
+   "signature": "toggleAutoAnswerCalls()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "toggleBackgroundSounds",
+   "title": "Toggle Background Sounds",
+   "signature": "toggleBackgroundSounds()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "toggleClassicInvert",
+   "title": "Toggle Classic Invert",
+   "signature": "toggleClassicInvert()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "toggleClosedCaptionsSDH",
+   "title": "Toggle Closed Captions SDH",
+   "signature": "toggleClosedCaptionsSDH()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "toggleColorFilters",
+   "title": "Toggle Color Filters",
+   "signature": "toggleColorFilters()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "toggleContrast",
+   "title": "Toggle Contrast",
+   "signature": "toggleContrast()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "toggleLEDFlash",
+   "title": "Toggle LED Flash",
+   "signature": "toggleLEDFlash()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "toggleLeftRightBalance",
+   "title": "Toggle Left-Right Balance",
+   "signature": "toggleLeftRightBalance(number ?value)",
+   "summary": "",
+   "params": [
+    {
+     "type": "number",
+     "name": "value",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "toggleLiveCaptions",
+   "title": "Toggle Live Captions",
+   "signature": "toggleLiveCaptions()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "toggleMediaBackgroundSounds",
+   "title": "Toggle Media Background Sounds",
+   "signature": "toggleMediaBackgroundSounds()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "toggleMonoAudio",
+   "title": "Toggle Mono Audio",
+   "signature": "toggleMonoAudio()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "toggleReduceMotion",
+   "title": "Toggle Reduce Motion",
+   "signature": "toggleReduceMotion()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "toggleReduceTransparency",
+   "title": "Toggle Reduce Transparency",
+   "signature": "toggleReduceTransparency()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "toggleSmartInvert",
+   "title": "Toggle Smart Invert",
+   "signature": "toggleSmartInvert()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "toggleSwitchControl",
+   "title": "Toggle Switch Control",
+   "signature": "toggleSwitchControl()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "toggleVoiceControl",
+   "title": "Toggle Voice Control",
+   "signature": "toggleVoiceControl()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "toggleWhitePoint",
+   "title": "Toggle White Point",
+   "signature": "toggleWhitePoint()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "a11y",
+   "name": "toggleZoom",
+   "title": "Toggle Zoom",
+   "signature": "toggleZoom()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/a11y"
+  },
+  {
+   "family": "basic",
+   "name": "alert",
+   "title": "Alert",
+   "signature": "alert(text alert, text ?title)",
+   "summary": "Shows an alert with text and optional title and an OK button to proceed.",
+   "params": [
+    {
+     "type": "text",
+     "name": "alert",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "title",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "chooseFromList",
+   "title": "Choose from List",
+   "signature": "chooseFromList(variable list, text ?prompt, bool ?selectMultiple = false, bool ?selectAll = false)",
+   "summary": "Prompts the user to choose from a list.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "list",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "prompt",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "selectMultiple",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "bool",
+     "name": "selectAll",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "comment",
+   "title": "Comment",
+   "signature": "comment(rawtext text)",
+   "summary": "Add an explicit comment.",
+   "params": [
+    {
+     "type": "rawtext",
+     "name": "text",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "confirm",
+   "title": "Confirm",
+   "signature": "confirm(text alert, text ?title)",
+   "summary": "Shows an alert with text and optional title. It displays an OK button to proceed, and a cancel button that stops the Shortcut.",
+   "params": [
+    {
+     "type": "text",
+     "name": "alert",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "title",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "contentGraph",
+   "title": "Content Graph",
+   "signature": "contentGraph(variable input)",
+   "summary": "Display input as a content graph.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "count",
+   "title": "",
+   "signature": "count(variable input, countType ?type = \"Items\"): number",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "countType",
+     "name": "type",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": "number",
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "formatNumber",
+   "title": "Format Number",
+   "signature": "formatNumber(number number, number ?decimalPlaces = 2): number",
+   "summary": "Format number based on decimal place.",
+   "params": [
+    {
+     "type": "number",
+     "name": "number",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "number",
+     "name": "decimalPlaces",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": "number",
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "getDictionary",
+   "title": "Get Dictionary",
+   "signature": "getDictionary(variable input): dictionary",
+   "summary": "Get the dictionary from `input`.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "dictionary",
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "getFirstItem",
+   "title": "Get First Item",
+   "signature": "getFirstItem(variable list): variable",
+   "summary": "Get first item in a list.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "list",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "variable",
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "getKeys",
+   "title": "Get Keys from Dictionary",
+   "signature": "getKeys(dictionary dictionary): array",
+   "summary": "Get only the keys from the `dictionary`.",
+   "params": [
+    {
+     "type": "dictionary",
+     "name": "dictionary",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "array",
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "getLastItem",
+   "title": "Get Last Item",
+   "signature": "getLastItem(variable list): variable",
+   "summary": "Get the last item in a list.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "list",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "variable",
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "getListItem",
+   "title": "Get List Item",
+   "signature": "getListItem(variable list, number index): variable",
+   "summary": "Get item from `list` at `index`. Keep in mind Shortcuts starts counting indexes at 1.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "list",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "number",
+     "name": "index",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "variable",
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "getListItems",
+   "title": "Get List Items",
+   "signature": "getListItems(variable list, number start, number end): array",
+   "summary": "Get items from a `list` between two indexes. Keep in mind Shortcuts starts counting indexes at 1.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "list",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "number",
+     "name": "start",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "number",
+     "name": "end",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "array",
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "getName",
+   "title": "Get Name",
+   "signature": "getName(variable item)",
+   "summary": "Get the name of an item.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "item",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "getNumbers",
+   "title": "Get Numbers",
+   "signature": "getNumbers(variable input): number",
+   "summary": "Get numbers from input.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "number",
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "getObjectOfClass",
+   "title": "Get Object of Class",
+   "signature": "getObjectOfClass(text class, variable from)",
+   "summary": "Get the object of `class` from a variable.",
+   "params": [
+    {
+     "type": "text",
+     "name": "class",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "variable",
+     "name": "from",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "getRandomItem",
+   "title": "Get Random Item",
+   "signature": "getRandomItem(variable list): variable",
+   "summary": "Get random item from list.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "list",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "variable",
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "getValue",
+   "title": "Get Value from Dictionary",
+   "signature": "getValue(dictionary dictionary, text key): variable",
+   "summary": "For constants only, otherwise `dictionary['key']` syntax should be used.",
+   "params": [
+    {
+     "type": "dictionary",
+     "name": "dictionary",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "key",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "variable",
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "getValues",
+   "title": "Get Values from Dictionary",
+   "signature": "getValues(dictionary dictionary): array",
+   "summary": "Get only the values from the `dictionary`.",
+   "params": [
+    {
+     "type": "dictionary",
+     "name": "dictionary",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "array",
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "list",
+   "title": "List",
+   "signature": "list(text ...listItem)",
+   "summary": "Create an immutable array of text.",
+   "params": [
+    {
+     "type": "text",
+     "name": "...listItem",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "mustOutput",
+   "title": "Must Output",
+   "signature": "mustOutput(text output, text response)",
+   "summary": "Stop and output `output`. Respond with response if there is nowhere to output.",
+   "params": [
+    {
+     "type": "text",
+     "name": "output",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "response",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "nothing",
+   "title": "Nothing",
+   "signature": "nothing()",
+   "summary": "Clear the current output.",
+   "params": [],
+   "returns": null,
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "number",
+   "title": "Number",
+   "signature": "number(variable number): number",
+   "summary": "Create a number value.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "number",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "number",
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "output",
+   "title": "Stop and Output",
+   "signature": "output(text output)",
+   "summary": "Stop and output `output`. Do nothing if there is nowhere to output.",
+   "params": [
+    {
+     "type": "text",
+     "name": "output",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "outputOrClipboard",
+   "title": "Output or Copy to Clipboard",
+   "signature": "outputOrClipboard(text output)",
+   "summary": "Stop and output `output`. Copy to the clipboard if there is nowhere to output.",
+   "params": [
+    {
+     "type": "text",
+     "name": "output",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "prompt",
+   "title": "",
+   "signature": "prompt(text prompt, inputType ?inputType = \"Text\", text ?defaultValue, text ?multiline = true)",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "prompt",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "inputType",
+     "name": "inputType",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "text",
+     "name": "defaultValue",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "multiline",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "quicklook",
+   "title": "Quick Look",
+   "signature": "quicklook(variable input)",
+   "summary": "Preview `input` in Quick Look.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "randomNumber",
+   "title": "Random Number",
+   "signature": "randomNumber(number min, number max): number",
+   "summary": "Returns a random number between `min` and `max`.",
+   "params": [
+    {
+     "type": "number",
+     "name": "min",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "number",
+     "name": "max",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "number",
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "search",
+   "title": "Search/Spotlight",
+   "signature": "search(text query, number ?limit = 5, array ?resultType = [Calendar Events Contacts Mail Messages Notes Photos Reminders Voice Recordings Bookmarks]): array",
+   "summary": "Get results from search on iOS or iPadOS, and Spotlight on macOS.",
+   "params": [
+    {
+     "type": "text",
+     "name": "query",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "number",
+     "name": "limit",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "array",
+     "name": "resultType",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": "array",
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "setName",
+   "title": "Set Name",
+   "signature": "setName(variable item, text name, bool ?includeFileExtension = false)",
+   "summary": "Set the name of an item.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "item",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "name",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "includeFileExtension",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "setValue",
+   "title": "Set Value in Dictionary",
+   "signature": "setValue(variable dictionary, text key, text value): dictionary",
+   "summary": "Set the value of `key` to `value` in `dictionary`.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "dictionary",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "key",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "value",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "dictionary",
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "show",
+   "title": "Show Result",
+   "signature": "show(text input)",
+   "summary": "Show `input`.",
+   "params": [
+    {
+     "type": "text",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "showNotification",
+   "title": "Show Notification",
+   "signature": "showNotification(text body, text ?title, bool ?playSound = true, variable ?attachment)",
+   "summary": "Shows a custom notification message.",
+   "params": [
+    {
+     "type": "text",
+     "name": "body",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "title",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "playSound",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "variable",
+     "name": "attachment",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "stop",
+   "title": "Stop Shortcut",
+   "signature": "stop()",
+   "summary": "Stops the shortcut.",
+   "params": [],
+   "returns": null,
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "typeOf",
+   "title": "Get Type",
+   "signature": "typeOf(variable input): text",
+   "summary": "Get the type of input.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "wait",
+   "title": "Wait",
+   "signature": "wait(number seconds)",
+   "summary": "Wait a specified number of seconds.",
+   "params": [
+    {
+     "type": "number",
+     "name": "seconds",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": null
+  },
+  {
+   "family": "basic",
+   "name": "waitToReturn",
+   "title": "Wait to Return",
+   "signature": "waitToReturn()",
+   "summary": "Wait for the user to return to Shortcuts.",
+   "params": [],
+   "returns": null,
+   "include": null
+  },
+  {
+   "family": "calendar",
+   "name": "addCalendar",
+   "title": "Add Calendar",
+   "signature": "addCalendar(text name)",
+   "summary": "Create a calendar with `name`.",
+   "params": [
+    {
+     "type": "text",
+     "name": "name",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "addQuickReminder",
+   "title": "Add Quick Reminder",
+   "signature": "addQuickReminder()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "adjustDate",
+   "title": "",
+   "signature": "adjustDate(text date, dateAdjustOperation operation, dateUnit ?unit): date",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "date",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "dateAdjustOperation",
+     "name": "operation",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "dateUnit",
+     "name": "unit",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": "date",
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "createAlarm",
+   "title": "Create Alarm",
+   "signature": "createAlarm(text name, text time, bool ?allowsSnooze = true, array ?repeatWeekdays)",
+   "summary": "Creates an alarm at a specific time with a name, snooze allowance, and applicable weekdays.",
+   "params": [
+    {
+     "type": "text",
+     "name": "name",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "time",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "allowsSnooze",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "array",
+     "name": "repeatWeekdays",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "currentDate",
+   "title": "Current Date",
+   "signature": "currentDate(): date",
+   "summary": "Get the current date.",
+   "params": [],
+   "returns": "date",
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "date",
+   "title": "Date",
+   "signature": "date(text date): date",
+   "summary": "Create a date value from `date`. Example: October 5, 2022.",
+   "params": [
+    {
+     "type": "text",
+     "name": "date",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "date",
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "deleteAlarm",
+   "title": "Delete Alarm",
+   "signature": "deleteAlarm(variable alarm)",
+   "summary": "Deletes an alarm.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "alarm",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "editEvent",
+   "title": "",
+   "signature": "editEvent(variable event, editEventDetail detail, text newValue)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "event",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "editEventDetail",
+     "name": "detail",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "newValue",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "formatDate",
+   "title": "",
+   "signature": "formatDate(text date, dateFormats ?dateFormat = \"Short\", text ?customDateFormat): text",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "date",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "dateFormats",
+     "name": "dateFormat",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "text",
+     "name": "customDateFormat",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "formatTime",
+   "title": "",
+   "signature": "formatTime(text time, timeFormats ?timeFormat = \"Short\"): text",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "time",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "timeFormats",
+     "name": "timeFormat",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": "text",
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "formatTimestamp",
+   "title": "",
+   "signature": "formatTimestamp(text date, dateFormats ?dateFormat = \"Short\", timeFormats ?timeFormat = \"Short\", text ?customDateFormat): text",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "date",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "dateFormats",
+     "name": "dateFormat",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "timeFormats",
+     "name": "timeFormat",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "text",
+     "name": "customDateFormat",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "getAlarms",
+   "title": "Get Alarms",
+   "signature": "getAlarms()",
+   "summary": "Returns all of the alarms on the device.",
+   "params": [],
+   "returns": null,
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "getDates",
+   "title": "Get Dates",
+   "signature": "getDates(variable input)",
+   "summary": "Get dates from input.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "getEventDetail",
+   "title": "",
+   "signature": "getEventDetail(variable event, eventDetail detail)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "event",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "eventDetail",
+     "name": "detail",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "getHolidayDate",
+   "title": "",
+   "signature": "getHolidayDate(holiday holiday, eventOccurrenceMode ?occurrenceMode = \"Next Occurrence\", holidayYear ?forYear): date",
+   "summary": "",
+   "params": [
+    {
+     "type": "holiday",
+     "name": "holiday",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "eventOccurrenceMode",
+     "name": "occurrenceMode",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "holidayYear",
+     "name": "forYear",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": "date",
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "openRemindersList",
+   "title": "Open Reminders List",
+   "signature": "openRemindersList(variable list)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "list",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "removeEvents",
+   "title": "Remove Events",
+   "signature": "removeEvents(variable events, bool ?includeFutureEvents = false)",
+   "summary": "Remove an event.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "events",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "includeFutureEvents",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "removeReminders",
+   "title": "Remove Reminders",
+   "signature": "removeReminders(variable reminders)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "reminders",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "showInCalendar",
+   "title": "Open Event in Calendar",
+   "signature": "showInCalendar(variable event)",
+   "summary": "Show `event` in the calendar app.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "event",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "startTimer",
+   "title": "",
+   "signature": "startTimer(timeDuration ?duration = qty(0, \"min\"))",
+   "summary": "",
+   "params": [
+    {
+     "type": "timeDuration",
+     "name": "duration",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "toggleAlarm",
+   "title": "Toggle Alarm",
+   "signature": "toggleAlarm(variable alarm, bool ?showWhenRun = true)",
+   "summary": "Toggle an alarm.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "alarm",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "showWhenRun",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "turnOffAlarm",
+   "title": "Turn Off Alarm",
+   "signature": "turnOffAlarm(variable alarm, bool ?showWhenRun = true)",
+   "summary": "Turn off an alarm.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "alarm",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "showWhenRun",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/calendar"
+  },
+  {
+   "family": "calendar",
+   "name": "turnOnAlarm",
+   "title": "Turn On Alarm",
+   "signature": "turnOnAlarm(variable alarm, bool ?showWhenRun = true)",
+   "summary": "Turn on an alarm.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "alarm",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "showWhenRun",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/calendar"
+  },
+  {
+   "family": "contacts",
+   "name": "call",
+   "title": "Call",
+   "signature": "call(variable contact)",
+   "summary": "Call a contact.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "contact",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/contacts"
+  },
+  {
+   "family": "contacts",
+   "name": "emailAddress",
+   "title": "Email Address",
+   "signature": "emailAddress(text ...email)",
+   "summary": "Create an email address value.",
+   "params": [
+    {
+     "type": "text",
+     "name": "...email",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/contacts"
+  },
+  {
+   "family": "contacts",
+   "name": "facetimeCall",
+   "title": "",
+   "signature": "facetimeCall(variable contact, facetimeCallType ?type = \"Video\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "contact",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "facetimeCallType",
+     "name": "type",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/contacts"
+  },
+  {
+   "family": "contacts",
+   "name": "filterContacts",
+   "title": "",
+   "signature": "filterContacts(variable contacts, contactDetail ?sortBy, abcSortOrder ?sortOrder = \"A to Z\", number ?limit)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "contacts",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "contactDetail",
+     "name": "sortBy",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "abcSortOrder",
+     "name": "sortOrder",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "number",
+     "name": "limit",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/contacts"
+  },
+  {
+   "family": "contacts",
+   "name": "getContactDetail",
+   "title": "",
+   "signature": "getContactDetail(variable contact, contactDetail detail)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "contact",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "contactDetail",
+     "name": "detail",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/contacts"
+  },
+  {
+   "family": "contacts",
+   "name": "getContacts",
+   "title": "Get Contacts",
+   "signature": "getContacts(variable input): array",
+   "summary": "Get contacts from input.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "array",
+   "include": "actions/contacts"
+  },
+  {
+   "family": "contacts",
+   "name": "getEmails",
+   "title": "Get Emails",
+   "signature": "getEmails(text input): array",
+   "summary": "Get emails from input.",
+   "params": [
+    {
+     "type": "text",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "array",
+   "include": "actions/contacts"
+  },
+  {
+   "family": "contacts",
+   "name": "getPhoneNumbers",
+   "title": "Get Phone Numbers",
+   "signature": "getPhoneNumbers(variable input): array",
+   "summary": "Get phone numbers from input.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "array",
+   "include": "actions/contacts"
+  },
+  {
+   "family": "contacts",
+   "name": "newContact",
+   "title": "Add New Contact",
+   "signature": "newContact(text firstName, text lastName, text phoneNumber, text emailAddress, text company, text notes, bool ?prompt = false)",
+   "summary": "Create a new contact.",
+   "params": [
+    {
+     "type": "text",
+     "name": "firstName",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "lastName",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "phoneNumber",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "emailAddress",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "company",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "notes",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "prompt",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/contacts"
+  },
+  {
+   "family": "contacts",
+   "name": "phoneNumber",
+   "title": "Phone Number",
+   "signature": "phoneNumber(text ...number)",
+   "summary": "Create a phone number value.",
+   "params": [
+    {
+     "type": "text",
+     "name": "...number",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/contacts"
+  },
+  {
+   "family": "contacts",
+   "name": "removeContactDetail",
+   "title": "",
+   "signature": "removeContactDetail(variable contact, contactDetail detail)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "contact",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "contactDetail",
+     "name": "detail",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/contacts"
+  },
+  {
+   "family": "contacts",
+   "name": "selectContact",
+   "title": "Select Contact",
+   "signature": "selectContact(bool ?multiple = false)",
+   "summary": "Prompt the user to select a contact or multiple contacts. Returns selected contact.",
+   "params": [
+    {
+     "type": "bool",
+     "name": "multiple",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/contacts"
+  },
+  {
+   "family": "contacts",
+   "name": "selectEmailAddress",
+   "title": "Select Email Address",
+   "signature": "selectEmailAddress()",
+   "summary": "Prompt the user to select an email address from their contacts.",
+   "params": [],
+   "returns": null,
+   "include": "actions/contacts"
+  },
+  {
+   "family": "contacts",
+   "name": "selectPhoneNumber",
+   "title": "Select Phone Number",
+   "signature": "selectPhoneNumber()",
+   "summary": "Prompt the user to select a phone number from their contacts.",
+   "params": [],
+   "returns": null,
+   "include": "actions/contacts"
+  },
+  {
+   "family": "contacts",
+   "name": "updateContact",
+   "title": "",
+   "signature": "updateContact(variable contact, contactDetail detail, text value)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "contact",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "contactDetail",
+     "name": "detail",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "value",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/contacts"
+  },
+  {
+   "family": "crypto",
+   "name": "base64Decode",
+   "title": "Base 64 Decode",
+   "signature": "base64Decode(variable input): variable",
+   "summary": "Base 64 decodes input.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "variable",
+   "include": "actions/crypto"
+  },
+  {
+   "family": "crypto",
+   "name": "base64Encode",
+   "title": "Base 64 Encode",
+   "signature": "base64Encode(variable encodeInput): text",
+   "summary": "Base 64 encodes input.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "encodeInput",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/crypto"
+  },
+  {
+   "family": "crypto",
+   "name": "hash",
+   "title": "",
+   "signature": "hash(variable input, hashType ?type = \"MD5\"): text",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "hashType",
+     "name": "type",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": "text",
+   "include": "actions/crypto"
+  },
+  {
+   "family": "device",
+   "name": "connectedToCharger",
+   "title": "Connected to Charger",
+   "signature": "connectedToCharger(): bool",
+   "summary": "Determines if the device is currently connected to a charger.",
+   "params": [],
+   "returns": "bool",
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "dismissSiri",
+   "title": "Dismiss Siri",
+   "signature": "dismissSiri()",
+   "summary": "Dismisses Siri.",
+   "params": [],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "flashlightOff",
+   "title": "Turn Off Flashlight",
+   "signature": "flashlightOff()",
+   "summary": "Turn off the flashlight on the device.",
+   "params": [],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "flashlightOn",
+   "title": "Turn On Flashlight",
+   "signature": "flashlightOn(float ?brightness = 0.5)",
+   "summary": "Turn on the flashlight on the device with optional brightness setting.",
+   "params": [
+    {
+     "type": "float",
+     "name": "brightness",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "getBatteryLevel",
+   "title": "Get Battery Level",
+   "signature": "getBatteryLevel()",
+   "summary": "Get the current level of charge of the device battery.",
+   "params": [],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "getChargeLimit",
+   "title": "Charge Limit",
+   "signature": "getChargeLimit(): number",
+   "summary": "Returns the current charge limit of the device battery.",
+   "params": [],
+   "returns": "number",
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "getDeviceDetail",
+   "title": "",
+   "signature": "getDeviceDetail(deviceDetail detail)",
+   "summary": "",
+   "params": [
+    {
+     "type": "deviceDetail",
+     "name": "detail",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "getDeviceUsage",
+   "title": "",
+   "signature": "getDeviceUsage(deviceUsageType ?usageType = \"all\", variable ?device, usageDuration ?during = \"today\", text ?startTime, text ?startTime)",
+   "summary": "",
+   "params": [
+    {
+     "type": "deviceUsageType",
+     "name": "usageType",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "variable",
+     "name": "device",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "usageDuration",
+     "name": "during",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "text",
+     "name": "startTime",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "startTime",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "getOnScreenContent",
+   "title": "Get On-Screen Content",
+   "signature": "getOnScreenContent()",
+   "summary": "Get the content currently on-screen.",
+   "params": [],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "getOrientation",
+   "title": "Get Orientation",
+   "signature": "getOrientation(): text",
+   "summary": "Get the current orientation of the device.",
+   "params": [],
+   "returns": "text",
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "hideAllApps",
+   "title": "Hide Apps",
+   "signature": "hideAllApps(text ...?except)",
+   "summary": "Hide multiple apps. Allows exception.",
+   "params": [
+    {
+     "type": "text",
+     "name": "...?except",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "hideApp",
+   "title": "Hide App",
+   "signature": "hideApp(text appID)",
+   "summary": "Hide an app.",
+   "params": [
+    {
+     "type": "text",
+     "name": "appID",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "isCharging",
+   "title": "Is Charging",
+   "signature": "isCharging(): bool",
+   "summary": "Determines if the device is currently charging.",
+   "params": [],
+   "returns": "bool",
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "killAllApps",
+   "title": "Kill All Apps",
+   "signature": "killAllApps(text ...?except)",
+   "summary": "{: .warning } This will quit all the apps running on the device without asking to save changes! Kills all apps. Allows exceptions.",
+   "params": [
+    {
+     "type": "text",
+     "name": "...?except",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "killApp",
+   "title": "Kill App",
+   "signature": "killApp(text appID)",
+   "summary": "{: .warning } This will not ask to save changes! Kill an app.",
+   "params": [
+    {
+     "type": "text",
+     "name": "appID",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "lockScreen",
+   "title": "Lock Screen",
+   "signature": "lockScreen()",
+   "summary": "Lock the device screen.",
+   "params": [],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "openApp",
+   "title": "Open App",
+   "signature": "openApp(text appID)",
+   "summary": "Open an app.",
+   "params": [
+    {
+     "type": "text",
+     "name": "appID",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "quitAllApps",
+   "title": "Quit All Apps",
+   "signature": "quitAllApps(text ...?except)",
+   "summary": "Quits all apps. Allows exceptions.",
+   "params": [
+    {
+     "type": "text",
+     "name": "...?except",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "quitApp",
+   "title": "Quit App",
+   "signature": "quitApp(text appID)",
+   "summary": "Quit an app.",
+   "params": [
+    {
+     "type": "text",
+     "name": "appID",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "reboot",
+   "title": "Reboot",
+   "signature": "reboot()",
+   "summary": "Power off the device, then power it on again.",
+   "params": [],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "returnToHomescreen",
+   "title": "Return to Home Screen",
+   "signature": "returnToHomescreen()",
+   "summary": "Returns to the device home screen.",
+   "params": [],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "searchPasswords",
+   "title": "Search Passwords",
+   "signature": "searchPasswords(text query)",
+   "summary": "Searches passwords in the Passwords app.",
+   "params": [
+    {
+     "type": "text",
+     "name": "query",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "setAirplaneMode",
+   "title": "Set Airplane Mode",
+   "signature": "setAirplaneMode(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "setBluetooth",
+   "title": "Set Bluetooth",
+   "signature": "setBluetooth(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "setBrightness",
+   "title": "Set Brightness",
+   "signature": "setBrightness(float brightness)",
+   "summary": "",
+   "params": [
+    {
+     "type": "float",
+     "name": "brightness",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "setCellularData",
+   "title": "Set Cellular Data",
+   "signature": "setCellularData(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "setHotspot",
+   "title": "Set Personal Hotspot",
+   "signature": "setHotspot(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "setLowPowerMode",
+   "title": "Set Low Power Mode",
+   "signature": "setLowPowerMode(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "setOrientationLock",
+   "title": "Set Orientation Lock",
+   "signature": "setOrientationLock(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "setVolume",
+   "title": "Set Volume",
+   "signature": "setVolume(float volume)",
+   "summary": "",
+   "params": [
+    {
+     "type": "float",
+     "name": "volume",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "setWifi",
+   "title": "Set Wifi",
+   "signature": "setWifi(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "showControlCenter",
+   "title": "Show Control Center",
+   "signature": "showControlCenter()",
+   "summary": "Open the control center on the device.",
+   "params": [],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "shutdown",
+   "title": "Shut Down",
+   "signature": "shutdown()",
+   "summary": "Power off the device.",
+   "params": [],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "splitApps",
+   "title": "",
+   "signature": "splitApps(text firstAppID, text secondAppID, appSplitRatio ?ratio = \"half\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "firstAppID",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "secondAppID",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "appSplitRatio",
+     "name": "ratio",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "toggleAirplaneMode",
+   "title": "Toggle Airplane Mode",
+   "signature": "toggleAirplaneMode()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "toggleBluetooth",
+   "title": "Toggle Bluetooth",
+   "signature": "toggleBluetooth()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "toggleCellularData",
+   "title": "Toggle Cellular Data",
+   "signature": "toggleCellularData()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "toggleFlashlight",
+   "title": "Toggle On Flashlight",
+   "signature": "toggleFlashlight(float ?brightness = 0.5)",
+   "summary": "Toggle the flashlight on the device with optional brightness setting.",
+   "params": [
+    {
+     "type": "float",
+     "name": "brightness",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "toggleHotspot",
+   "title": "Toggle Personal Hotspot",
+   "signature": "toggleHotspot()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "toggleLowPowerMode",
+   "title": "Toggle Low Power Mode",
+   "signature": "toggleLowPowerMode()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "toggleOrientationLock",
+   "title": "Toggle Orientation Lock",
+   "signature": "toggleOrientationLock()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "toggleWifi",
+   "title": "Toggle Wifi",
+   "signature": "toggleWifi()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "device",
+   "name": "vibrate",
+   "title": "Vibrate Device",
+   "signature": "vibrate()",
+   "summary": "Vibrate the device. Only applies to Apple devices with the haptic engine.",
+   "params": [],
+   "returns": null,
+   "include": "actions/device"
+  },
+  {
+   "family": "documents",
+   "name": "addToBooks",
+   "title": "Add to Books",
+   "signature": "addToBooks(variable input)",
+   "summary": "Add `input` to books. `input` is expected to be a PDF or epub file.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "appendNote",
+   "title": "Append Note",
+   "signature": "appendNote(text note, text input)",
+   "summary": "Append text to a note.",
+   "params": [
+    {
+     "type": "text",
+     "name": "note",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "appendToFile",
+   "title": "Append File",
+   "signature": "appendToFile(text filePath, &variable text)",
+   "summary": "Append text to a file.",
+   "params": [
+    {
+     "type": "text",
+     "name": "filePath",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "&variable",
+     "name": "text",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "convertToUSDZ",
+   "title": "Convert to USDZ",
+   "signature": "convertToUSDZ(variable file)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "file",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "createFolder",
+   "title": "Create Folder",
+   "signature": "createFolder(text path, &variable ?folder)",
+   "summary": "Create a folder within the Shortcuts folder or within a `#ref` to a folder.",
+   "params": [
+    {
+     "type": "text",
+     "name": "path",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "&variable",
+     "name": "folder",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "deleteFiles",
+   "title": "Delete Files",
+   "signature": "deleteFiles(&variable input, bool ?immediately = false)",
+   "summary": "Delete a file or multiple files.",
+   "params": [
+    {
+     "type": "&variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "immediately",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "extractArchive",
+   "title": "Extract Archive",
+   "signature": "extractArchive(variable file)",
+   "summary": "Extract files from the archive `file`.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "file",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "file",
+   "title": "File",
+   "signature": "file(&variable file): variable",
+   "summary": "Insert a `#ref` to a file.",
+   "params": [
+    {
+     "type": "&variable",
+     "name": "file",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "variable",
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "fileSize",
+   "title": "",
+   "signature": "fileSize(text file, fileSizeFormat format)",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "file",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "fileSizeFormat",
+     "name": "format",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "filterFiles",
+   "title": "",
+   "signature": "filterFiles(variable files, number ?limit, filesSortBy ?sortBy, fileOrderings ?orderBy)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "files",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "number",
+     "name": "limit",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "filesSortBy",
+     "name": "sortBy",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "fileOrderings",
+     "name": "orderBy",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "getFile",
+   "title": "Get File",
+   "signature": "getFile(text path, &variable ?folder, bool ?errorIfNotFound = true)",
+   "summary": "Get file from a path in the Shortcuts folder or within a `#ref` to a folder.",
+   "params": [
+    {
+     "type": "text",
+     "name": "path",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "&variable",
+     "name": "folder",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "errorIfNotFound",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "getFileDetail",
+   "title": "",
+   "signature": "getFileDetail(variable file, fileDetail detail)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "file",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "fileDetail",
+     "name": "detail",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "getFileFromFolder",
+   "title": "Get File From Folder",
+   "signature": "getFileFromFolder(text folder, text path, bool ?errorIfNotFound = true)",
+   "summary": "Get a file from a folder. Prepend path with a `~` to access the home folder on macOS.",
+   "params": [
+    {
+     "type": "text",
+     "name": "folder",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "path",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "errorIfNotFound",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "getFileLink",
+   "title": "Get File Link",
+   "signature": "getFileLink(variable file)",
+   "summary": "Get a link for the provided file.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "file",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "getFolderContents",
+   "title": "Get Folder Contents",
+   "signature": "getFolderContents(&variable folder, bool ?recursive = false)",
+   "summary": "Get contents of a folder.",
+   "params": [
+    {
+     "type": "&variable",
+     "name": "folder",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "recursive",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "getParentDirectory",
+   "title": "Get Parent Directory",
+   "signature": "getParentDirectory(&variable input)",
+   "summary": "Get the parent directory of the input directory.",
+   "params": [
+    {
+     "type": "&variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "getSelectedFiles",
+   "title": "Get Selected",
+   "signature": "getSelectedFiles()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "labelFile",
+   "title": "",
+   "signature": "labelFile(variable file, fileLabel color)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "file",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "fileLabel",
+     "name": "color",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "makeArchive",
+   "title": "",
+   "signature": "makeArchive(variable files, archiveFormat ?format = \".zip\", text ?name)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "files",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "archiveFormat",
+     "name": "format",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "text",
+     "name": "name",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "makeQRCode",
+   "title": "",
+   "signature": "makeQRCode(text input, QRCodeErrorCorrection ?errorCorrection = \"Medium\", color ?foregroundColor = [{float 0} {float 0} {float 0} {float 1}], color ?backgroundColor = [{float 2} {float 2} {float 2} {float 1}])",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "input",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "QRCodeErrorCorrection",
+     "name": "errorCorrection",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "color",
+     "name": "foregroundColor",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "color",
+     "name": "backgroundColor",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "markup",
+   "title": "Markup",
+   "signature": "markup(variable document)",
+   "summary": "Opens document in a markup editor.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "document",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "openFile",
+   "title": "Open File",
+   "signature": "openFile(&variable file, bool ?askWhenRun = false)",
+   "summary": "Open a file.",
+   "params": [
+    {
+     "type": "&variable",
+     "name": "file",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "askWhenRun",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "openNote",
+   "title": "Open Note",
+   "signature": "openNote(variable note)",
+   "summary": "Open note in the Notes app.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "note",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "prependToFile",
+   "title": "Prepend File",
+   "signature": "prependToFile(text filePath, &variable text)",
+   "summary": "Prepend text to a file.",
+   "params": [
+    {
+     "type": "text",
+     "name": "filePath",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "&variable",
+     "name": "text",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "print",
+   "title": "Print",
+   "signature": "print(variable input)",
+   "summary": "Print input to a printer.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "rename",
+   "title": "Rename File",
+   "signature": "rename(&variable file, text newName)",
+   "summary": "",
+   "params": [
+    {
+     "type": "&variable",
+     "name": "file",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "newName",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "reveal",
+   "title": "Reveal in Finder",
+   "signature": "reveal(&variable files)",
+   "summary": "",
+   "params": [
+    {
+     "type": "&variable",
+     "name": "files",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "saveFile",
+   "title": "Save File",
+   "signature": "saveFile(text path, &variable content, bool ?overwrite = false)",
+   "summary": "Save contents to a file at the specified path.",
+   "params": [
+    {
+     "type": "text",
+     "name": "path",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "&variable",
+     "name": "content",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "overwrite",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "saveFilePrompt",
+   "title": "Save File Prompt",
+   "signature": "saveFilePrompt(variable file, bool ?overwrite = false)",
+   "summary": "Prompt the user to choose a location to save the file.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "file",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "overwrite",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "selectFile",
+   "title": "Select File",
+   "signature": "selectFile(bool ?selectMultiple = false)",
+   "summary": "Prompt the user to select one or optionally multiple files.",
+   "params": [
+    {
+     "type": "bool",
+     "name": "selectMultiple",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "selectFolder",
+   "title": "Select Folder",
+   "signature": "selectFolder(bool ?selectMultiple = false)",
+   "summary": "Prompt the user to select one or optionally multiple folders.",
+   "params": [
+    {
+     "type": "bool",
+     "name": "selectMultiple",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "documents",
+   "name": "showQuickNote",
+   "title": "Show Quick Note",
+   "signature": "showQuickNote()",
+   "summary": "Show quick note.",
+   "params": [],
+   "returns": null,
+   "include": "actions/documents"
+  },
+  {
+   "family": "dropbox",
+   "name": "saveToDropbox",
+   "title": "Save File to Dropbox",
+   "signature": "saveToDropbox(variable file, text path, bool ?overwrite = false)",
+   "summary": "Save a file to Dropbox. Requires user to setup Dropbox account in Shortcuts app.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "file",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "path",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "overwrite",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/dropbox"
+  },
+  {
+   "family": "dropbox",
+   "name": "saveToDropboxPrompt",
+   "title": "Save File to Dropbox Prompt",
+   "signature": "saveToDropboxPrompt(variable file, bool ?overwrite = false)",
+   "summary": "Prompt to save a file to Dropbox. Requires user to setup Dropbox account in Shortcuts app.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "file",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "overwrite",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/dropbox"
+  },
+  {
+   "family": "images",
+   "name": "addToGIF",
+   "title": "Add To GIF",
+   "signature": "addToGIF(variable image, variable gif, text ?delay = \"0.25\", bool ?autoSize = true, text ?width, text ?height)",
+   "summary": "Add a frame to a GIF.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "image",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "variable",
+     "name": "gif",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "delay",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "bool",
+     "name": "autoSize",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "text",
+     "name": "width",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "height",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "combineImages",
+   "title": "",
+   "signature": "combineImages(variable images, imageCombineMode ?mode = \"Vertically\", number ?spacing = 1)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "images",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "imageCombineMode",
+     "name": "mode",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "number",
+     "name": "spacing",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "convertImage",
+   "title": "",
+   "signature": "convertImage(variable image, convertImageFormats format, float ?quality, bool ?preserveMetadata = true)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "image",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "convertImageFormats",
+     "name": "format",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "float",
+     "name": "quality",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "preserveMetadata",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "convertToJPEG",
+   "title": "Convert to JPEG",
+   "signature": "convertToJPEG(variable image, number ?compressionQuality, bool ?preserveMetadata = true)",
+   "summary": "Convert image to a JPEG.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "image",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "number",
+     "name": "compressionQuality",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "preserveMetadata",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "cropImage",
+   "title": "",
+   "signature": "cropImage(variable image, text ?width = \"100\", text ?height = \"100\", cropImagePosition ?position = \"Center\", text ?customPositionX, text ?customPositionY)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "image",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "width",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "text",
+     "name": "height",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "cropImagePosition",
+     "name": "position",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "text",
+     "name": "customPositionX",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "customPositionY",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "customImageMask",
+   "title": "Custom Image Mask",
+   "signature": "customImageMask(variable image, variable customMaskImage)",
+   "summary": "Mask an image with a custom image mask.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "image",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "variable",
+     "name": "customMaskImage",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "customImageOverlay",
+   "title": "",
+   "signature": "customImageOverlay(variable image, variable overlayImage, text ?width, text ?height, text ?rotation = \"0\", text ?opacity = \"100\", customImageOverlayPosition ?position = \"Center\", text ?customPositionX, text ?customPositionY)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "image",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "variable",
+     "name": "overlayImage",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "width",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "height",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "rotation",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "text",
+     "name": "opacity",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "customImageOverlayPosition",
+     "name": "position",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "text",
+     "name": "customPositionX",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "customPositionY",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "extractImageText",
+   "title": "Extract Image Text",
+   "signature": "extractImageText(variable image): text",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "image",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "flipImage",
+   "title": "",
+   "signature": "flipImage(variable image, flipImageDirection direction)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "image",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "flipImageDirection",
+     "name": "direction",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "getImageDetail",
+   "title": "",
+   "signature": "getImageDetail(variable image, imageDetail detail)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "image",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "imageDetail",
+     "name": "detail",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "getImageFrames",
+   "title": "Get Image Frames",
+   "signature": "getImageFrames(variable image)",
+   "summary": "Get frames from a GIF.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "image",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "getImages",
+   "title": "Get Images",
+   "signature": "getImages(variable input): array",
+   "summary": "Detect images in input",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "array",
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "makeGIF",
+   "title": "Make GIF",
+   "signature": "makeGIF(variable input, text ?delay = \"0.3\", number ?loops, text ?width, text ?height)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "delay",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "number",
+     "name": "loops",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "width",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "height",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "makeImageFromRichText",
+   "title": "Make Image from Rich Text",
+   "signature": "makeImageFromRichText(variable pdf, text width, text height)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "pdf",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "width",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "height",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "makeVideoFromGIF",
+   "title": "Make Video From GIF",
+   "signature": "makeVideoFromGIF(variable gif, number ?loops = 1)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "gif",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "number",
+     "name": "loops",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "maskImage",
+   "title": "",
+   "signature": "maskImage(variable image, maskImageType type, text ?radius)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "image",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "maskImageType",
+     "name": "type",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "radius",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "overlayImage",
+   "title": "Overlay Image",
+   "signature": "overlayImage(variable image, variable overlayImage)",
+   "summary": "Overlay an image on top of another image.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "image",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "variable",
+     "name": "overlayImage",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "removeBackground",
+   "title": "Remove Image Background",
+   "signature": "removeBackground(variable image, bool ?crop = false)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "image",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "crop",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "resizeImage",
+   "title": "Resize Image",
+   "signature": "resizeImage(variable image, text width, text ?height)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "image",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "width",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "height",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "resizeImageByLongestEdge",
+   "title": "Resize Image By Longest Edge",
+   "signature": "resizeImageByLongestEdge(variable image, text length)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "image",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "length",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "resizeImageByPercent",
+   "title": "Resize Image By Percent",
+   "signature": "resizeImageByPercent(variable image, text percentage)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "image",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "percentage",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "rotateMedia",
+   "title": "Rotate Media",
+   "signature": "rotateMedia(variable media, text degrees)",
+   "summary": "Rotate an image or a video",
+   "params": [
+    {
+     "type": "variable",
+     "name": "media",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "degrees",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/images"
+  },
+  {
+   "family": "images",
+   "name": "stripImageMetadata",
+   "title": "Strip Image Metadata",
+   "signature": "stripImageMetadata(variable image)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "image",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/images"
+  },
+  {
+   "family": "intelligence",
+   "name": "adjustTextTone",
+   "title": "",
+   "signature": "adjustTextTone(text text, textTone tone): text",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "text",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "textTone",
+     "name": "tone",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/intelligence"
+  },
+  {
+   "family": "intelligence",
+   "name": "askChatGPT",
+   "title": "",
+   "signature": "askChatGPT(text prompt, bool ?followUp = false, generativeResultType ?resultType = \"Automatic\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "prompt",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "followUp",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "generativeResultType",
+     "name": "resultType",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/intelligence"
+  },
+  {
+   "family": "intelligence",
+   "name": "askCloudLLM",
+   "title": "",
+   "signature": "askCloudLLM(text prompt, bool ?followUp = false, generativeResultType ?resultType = \"Automatic\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "prompt",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "followUp",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "generativeResultType",
+     "name": "resultType",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/intelligence"
+  },
+  {
+   "family": "intelligence",
+   "name": "askDeviceModel",
+   "title": "",
+   "signature": "askDeviceModel(text prompt, bool ?followUp = false, generativeResultType ?resultType = \"Automatic\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "prompt",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "followUp",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "generativeResultType",
+     "name": "resultType",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/intelligence"
+  },
+  {
+   "family": "intelligence",
+   "name": "askLLM",
+   "title": "",
+   "signature": "askLLM(text prompt, LLMModel ?model = \"Private Cloud Compute\", bool ?followUp = false, generativeResultType ?resultType = \"Automatic\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "prompt",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "LLMModel",
+     "name": "model",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "bool",
+     "name": "followUp",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "generativeResultType",
+     "name": "resultType",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/intelligence"
+  },
+  {
+   "family": "intelligence",
+   "name": "askModel",
+   "title": "",
+   "signature": "askModel(text prompt, bool ?followUp = false, bool ?allowSearch = false, generativeResultType ?resultType = \"Automatic\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "prompt",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "followUp",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "bool",
+     "name": "allowSearch",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "generativeResultType",
+     "name": "resultType",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/intelligence"
+  },
+  {
+   "family": "intelligence",
+   "name": "askProModel",
+   "title": "",
+   "signature": "askProModel(text prompt, bool ?followUp = false, bool ?allowSearch = false, generativeResultType ?resultType = \"Automatic\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "prompt",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "followUp",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "bool",
+     "name": "allowSearch",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "generativeResultType",
+     "name": "resultType",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/intelligence"
+  },
+  {
+   "family": "intelligence",
+   "name": "generateImage",
+   "title": "",
+   "signature": "generateImage(text prompt, variable ?image, imagePlaygroundStyle ?style = \"animation\", saveToPlaygroundBehavior ?saveToPlayground = \"always\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "prompt",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "variable",
+     "name": "image",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "imagePlaygroundStyle",
+     "name": "style",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "saveToPlaygroundBehavior",
+     "name": "saveToPlayground",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/intelligence"
+  },
+  {
+   "family": "intelligence",
+   "name": "generateKeyPoints",
+   "title": "Summarize Text Key Points",
+   "signature": "generateKeyPoints(text text): text",
+   "summary": "Generate a summary of key points of text using Apple Intelligence Writing Tools.",
+   "params": [
+    {
+     "type": "text",
+     "name": "text",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/intelligence"
+  },
+  {
+   "family": "intelligence",
+   "name": "generateList",
+   "title": "Make List From Text",
+   "signature": "generateList(text text): text",
+   "summary": "Generate list from text  using Apple Intelligence Writing Tools.",
+   "params": [
+    {
+     "type": "text",
+     "name": "text",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/intelligence"
+  },
+  {
+   "family": "intelligence",
+   "name": "generateProofread",
+   "title": "Proofread Text",
+   "signature": "generateProofread(text text): text",
+   "summary": "Generate a proofread version of text using Apple Intelligence Writing Tools.",
+   "params": [
+    {
+     "type": "text",
+     "name": "text",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/intelligence"
+  },
+  {
+   "family": "intelligence",
+   "name": "generateRewrite",
+   "title": "Rewrite Text",
+   "signature": "generateRewrite(text text): text",
+   "summary": "Generate a rewritten version of text using Apple Intelligence Writing Tools.",
+   "params": [
+    {
+     "type": "text",
+     "name": "text",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/intelligence"
+  },
+  {
+   "family": "intelligence",
+   "name": "generateSummary",
+   "title": "Summarize Text",
+   "signature": "generateSummary(text text): text",
+   "summary": "Generate a summarized version of text using Apple Intelligence Writing Tools.",
+   "params": [
+    {
+     "type": "text",
+     "name": "text",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/intelligence"
+  },
+  {
+   "family": "intelligence",
+   "name": "generateTable",
+   "title": "Make Table From Text",
+   "signature": "generateTable(text text): text",
+   "summary": "Generate table from text using Apple Intelligence Writing Tools.",
+   "params": [
+    {
+     "type": "text",
+     "name": "text",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/intelligence"
+  },
+  {
+   "family": "location",
+   "name": "addWeatherLocation",
+   "title": "Add Location to List",
+   "signature": "addWeatherLocation(variable location)",
+   "summary": "Add a location to Weather app.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "location",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/location"
+  },
+  {
+   "family": "location",
+   "name": "currentLocation",
+   "title": "Current Location",
+   "signature": "currentLocation()",
+   "summary": "Get current user location.",
+   "params": [],
+   "returns": null,
+   "include": "actions/location"
+  },
+  {
+   "family": "location",
+   "name": "getAddresses",
+   "title": "Get Addresses",
+   "signature": "getAddresses(variable input)",
+   "summary": "Get addresses from `input`.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/location"
+  },
+  {
+   "family": "location",
+   "name": "getCurrentLocation",
+   "title": "Get Current Location",
+   "signature": "getCurrentLocation()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/location"
+  },
+  {
+   "family": "location",
+   "name": "getCurrentWeather",
+   "title": "Get Current Weather",
+   "signature": "getCurrentWeather(text ?location = \"Current Location\")",
+   "summary": "Get the current weather for a location.",
+   "params": [
+    {
+     "type": "text",
+     "name": "location",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/location"
+  },
+  {
+   "family": "location",
+   "name": "getHalfwayPoint",
+   "title": "Get Halfway Point",
+   "signature": "getHalfwayPoint(variable firstLocation, variable secondLocation)",
+   "summary": "Get the halfway point between two locations.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "firstLocation",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "variable",
+     "name": "secondLocation",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/location"
+  },
+  {
+   "family": "location",
+   "name": "getLocationDetail",
+   "title": "",
+   "signature": "getLocationDetail(variable location, locationDetail detail)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "location",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "locationDetail",
+     "name": "detail",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/location"
+  },
+  {
+   "family": "location",
+   "name": "getMapsLink",
+   "title": "Get Maps Link",
+   "signature": "getMapsLink(variable location)",
+   "summary": "Get a link for a location.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "location",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/location"
+  },
+  {
+   "family": "location",
+   "name": "getWeatherDetail",
+   "title": "",
+   "signature": "getWeatherDetail(variable weather, weatherDetail detail)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "weather",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "weatherDetail",
+     "name": "detail",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/location"
+  },
+  {
+   "family": "location",
+   "name": "getWeatherForecast",
+   "title": "",
+   "signature": "getWeatherForecast(weatherForecastTypes ?type = \"Daily\", text ?location = \"Current Location\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "weatherForecastTypes",
+     "name": "type",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "text",
+     "name": "location",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/location"
+  },
+  {
+   "family": "location",
+   "name": "location",
+   "title": "Location",
+   "signature": "location(text location)",
+   "summary": "Create a location value.",
+   "params": [
+    {
+     "type": "text",
+     "name": "location",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/location"
+  },
+  {
+   "family": "location",
+   "name": "openInMaps",
+   "title": "Open in Maps",
+   "signature": "openInMaps(variable location)",
+   "summary": "Open a location in maps.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "location",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/location"
+  },
+  {
+   "family": "location",
+   "name": "removeWeatherLocation",
+   "title": "Remove Location from List",
+   "signature": "removeWeatherLocation(variable location)",
+   "summary": "Remove a location from the Weather app.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "location",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/location"
+  },
+  {
+   "family": "location",
+   "name": "streetAddress",
+   "title": "Street Address",
+   "signature": "streetAddress(text addressLine2, text addressLine2, text city, text state, text country, number zipCode)",
+   "summary": "Create a location value with an address.",
+   "params": [
+    {
+     "type": "text",
+     "name": "addressLine2",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "addressLine2",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "city",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "state",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "country",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "number",
+     "name": "zipCode",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/location"
+  },
+  {
+   "family": "mac",
+   "name": "displaySleep",
+   "title": "Display Sleep",
+   "signature": "displaySleep()",
+   "summary": "Only puts the Mac display to sleep, device remains awake.",
+   "params": [],
+   "returns": null,
+   "include": "actions/mac"
+  },
+  {
+   "family": "mac",
+   "name": "getApps",
+   "title": "Get Apps",
+   "signature": "getApps(): array",
+   "summary": "Get list of applications.",
+   "params": [],
+   "returns": "array",
+   "include": "actions/mac"
+  },
+  {
+   "family": "mac",
+   "name": "getWindows",
+   "title": "",
+   "signature": "getWindows(windowSorting ?sortBy, sortOrder ?orderBy, number ?limit)",
+   "summary": "",
+   "params": [
+    {
+     "type": "windowSorting",
+     "name": "sortBy",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "sortOrder",
+     "name": "orderBy",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "number",
+     "name": "limit",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/mac"
+  },
+  {
+   "family": "mac",
+   "name": "makeDiskImage",
+   "title": "Make Disk Image",
+   "signature": "makeDiskImage(text name, variable contents, bool ?encrypt = false)",
+   "summary": "Create a new disk image.",
+   "params": [
+    {
+     "type": "text",
+     "name": "name",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "variable",
+     "name": "contents",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "encrypt",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/mac"
+  },
+  {
+   "family": "mac",
+   "name": "makeSizedDiskImage",
+   "title": "",
+   "signature": "makeSizedDiskImage(text name, variable contents, storageUnit ?diskSize = qty(1, \"GB\"), bool ?encrypt = false)",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "name",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "variable",
+     "name": "contents",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "storageUnit",
+     "name": "diskSize",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "bool",
+     "name": "encrypt",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/mac"
+  },
+  {
+   "family": "mac",
+   "name": "moveWindow",
+   "title": "",
+   "signature": "moveWindow(variable window, windowPosition position, bool ?bringToFront = true)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "window",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "windowPosition",
+     "name": "position",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "bringToFront",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/mac"
+  },
+  {
+   "family": "mac",
+   "name": "resizeWindow",
+   "title": "",
+   "signature": "resizeWindow(variable window, windowSize configuration)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "window",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "windowSize",
+     "name": "configuration",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/mac"
+  },
+  {
+   "family": "mac",
+   "name": "runAppleScript",
+   "title": "Run Apple Script",
+   "signature": "runAppleScript(rawtext script, variable ?input)",
+   "summary": "",
+   "params": [
+    {
+     "type": "rawtext",
+     "name": "script",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/mac"
+  },
+  {
+   "family": "mac",
+   "name": "runJSAutomation",
+   "title": "Run JavaScript for Automation",
+   "signature": "runJSAutomation(text script, variable ?input)",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "script",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/mac"
+  },
+  {
+   "family": "mac",
+   "name": "runShellScript",
+   "title": "Run Shell Script",
+   "signature": "runShellScript(text script, variable ?input, text ?shell = \"/bin/zsh\", text ?inputMode = \"to stdin\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "script",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "shell",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "text",
+     "name": "inputMode",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/mac"
+  },
+  {
+   "family": "mac",
+   "name": "sleep",
+   "title": "Sleep",
+   "signature": "sleep()",
+   "summary": "Puts the Mac to sleep.",
+   "params": [],
+   "returns": null,
+   "include": "actions/mac"
+  },
+  {
+   "family": "mac",
+   "name": "startScreensaver",
+   "title": "Start Screensaver",
+   "signature": "startScreensaver()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/mac"
+  },
+  {
+   "family": "mac",
+   "name": "takeInteractiveScreenshot",
+   "title": "",
+   "signature": "takeInteractiveScreenshot(screenshotSelection ?selection = \"Window\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "screenshotSelection",
+     "name": "selection",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/mac"
+  },
+  {
+   "family": "math",
+   "name": "calculate",
+   "title": "",
+   "signature": "calculate(calculationOperation operation, number operandOne, number ?operandTwo): number",
+   "summary": "",
+   "params": [
+    {
+     "type": "calculationOperation",
+     "name": "operation",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "number",
+     "name": "operandOne",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "number",
+     "name": "operandTwo",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": "number",
+   "include": "actions/math"
+  },
+  {
+   "family": "math",
+   "name": "ceil",
+   "title": "",
+   "signature": "ceil(number number, roundingPlace ?roundTo = \"Integer\"): number",
+   "summary": "",
+   "params": [
+    {
+     "type": "number",
+     "name": "number",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "roundingPlace",
+     "name": "roundTo",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": "number",
+   "include": "actions/math"
+  },
+  {
+   "family": "math",
+   "name": "convertMeasurement",
+   "title": "",
+   "signature": "convertMeasurement(variable measurement, measurementUnitType unitType, text unit)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "measurement",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "measurementUnitType",
+     "name": "unitType",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "unit",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/math"
+  },
+  {
+   "family": "math",
+   "name": "floor",
+   "title": "",
+   "signature": "floor(number number, roundingPlace ?roundTo = \"Integer\"): number",
+   "summary": "",
+   "params": [
+    {
+     "type": "number",
+     "name": "number",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "roundingPlace",
+     "name": "roundTo",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": "number",
+   "include": "actions/math"
+  },
+  {
+   "family": "math",
+   "name": "measurement",
+   "title": "",
+   "signature": "measurement(text magnitude, measurementUnitType unitType, text unit)",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "magnitude",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "measurementUnitType",
+     "name": "unitType",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "unit",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/math"
+  },
+  {
+   "family": "math",
+   "name": "round",
+   "title": "",
+   "signature": "round(number number, roundingPlace ?roundTo = \"Integer\"): number",
+   "summary": "",
+   "params": [
+    {
+     "type": "number",
+     "name": "number",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "roundingPlace",
+     "name": "roundTo",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": "number",
+   "include": "actions/math"
+  },
+  {
+   "family": "math",
+   "name": "statistic",
+   "title": "",
+   "signature": "statistic(statisticOperations operation, variable input)",
+   "summary": "",
+   "params": [
+    {
+     "type": "statisticOperations",
+     "name": "operation",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/math"
+  },
+  {
+   "family": "media",
+   "name": "encodeAudio",
+   "title": "",
+   "signature": "encodeAudio(variable audio, audioFormats ?format = \"M4A\", audioSpeeds ?speed = \"Normal\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "audio",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "audioFormats",
+     "name": "format",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "audioSpeeds",
+     "name": "speed",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/media"
+  },
+  {
+   "family": "media",
+   "name": "encodeVideo",
+   "title": "",
+   "signature": "encodeVideo(variable video, encodeVideoSizes ?size = \"Passthrough\", encodeVideoSpeeds ?speed = \"Normal\", bool ?preserveTransparency = false)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "video",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "encodeVideoSizes",
+     "name": "size",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "encodeVideoSpeeds",
+     "name": "speed",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "bool",
+     "name": "preserveTransparency",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/media"
+  },
+  {
+   "family": "media",
+   "name": "getPodcastDetail",
+   "title": "",
+   "signature": "getPodcastDetail(variable podcast, podcastDetail detail)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "podcast",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "podcastDetail",
+     "name": "detail",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/media"
+  },
+  {
+   "family": "media",
+   "name": "getPodcasts",
+   "title": "Get Podcasts",
+   "signature": "getPodcasts()",
+   "summary": "Get users podcasts.",
+   "params": [],
+   "returns": null,
+   "include": "actions/media"
+  },
+  {
+   "family": "media",
+   "name": "getShazamDetail",
+   "title": "",
+   "signature": "getShazamDetail(variable input, shazamDetail detail)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "shazamDetail",
+     "name": "detail",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/media"
+  },
+  {
+   "family": "media",
+   "name": "playPodcast",
+   "title": "Play Podcast",
+   "signature": "playPodcast(variable podcast)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "podcast",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/media"
+  },
+  {
+   "family": "media",
+   "name": "playSound",
+   "title": "Play Audio",
+   "signature": "playSound(variable input)",
+   "summary": "Play a sound.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/media"
+  },
+  {
+   "family": "media",
+   "name": "recordAudio",
+   "title": "",
+   "signature": "recordAudio(audioQuality ?quality = \"Normal\", audioStart ?start = \"On Tap\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "audioQuality",
+     "name": "quality",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "audioStart",
+     "name": "start",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/media"
+  },
+  {
+   "family": "media",
+   "name": "searchAppStore",
+   "title": "Search App Store",
+   "signature": "searchAppStore(text query)",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "query",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/media"
+  },
+  {
+   "family": "media",
+   "name": "searchPodcasts",
+   "title": "Search Podcasts",
+   "signature": "searchPodcasts(text query)",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "query",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/media"
+  },
+  {
+   "family": "media",
+   "name": "searchVoiceMemos",
+   "title": "Search Voice Memos",
+   "signature": "searchVoiceMemos(text search): array",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "search",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "array",
+   "include": "actions/media"
+  },
+  {
+   "family": "media",
+   "name": "setMetadata",
+   "title": "Set Media Metadata",
+   "signature": "setMetadata(variable media, variable ?artwork, text ?title, text ?artist, text ?album, text ?genre, text ?year)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "media",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "variable",
+     "name": "artwork",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "title",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "artist",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "album",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "genre",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "year",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/media"
+  },
+  {
+   "family": "media",
+   "name": "showIniTunes",
+   "title": "Show In iTunes",
+   "signature": "showIniTunes(variable product)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "product",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/media"
+  },
+  {
+   "family": "media",
+   "name": "startShazam",
+   "title": "Start Shazam",
+   "signature": "startShazam(bool ?show = true, bool ?showError = true)",
+   "summary": "Prompt the user to play music for Shazam to recognize. Returns Shazam result.",
+   "params": [
+    {
+     "type": "bool",
+     "name": "show",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "bool",
+     "name": "showError",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/media"
+  },
+  {
+   "family": "media",
+   "name": "stripMediaMetadata",
+   "title": "Strip Media Metadata",
+   "signature": "stripMediaMetadata(variable media)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "media",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/media"
+  },
+  {
+   "family": "media",
+   "name": "takePhoto",
+   "title": "Take Photo",
+   "signature": "takePhoto(number ?count = 1, bool ?showPreview = true)",
+   "summary": "Prompt the user to take one or more photos.",
+   "params": [
+    {
+     "type": "number",
+     "name": "count",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "bool",
+     "name": "showPreview",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/media"
+  },
+  {
+   "family": "media",
+   "name": "takeScreenshot",
+   "title": "Take Screenshot",
+   "signature": "takeScreenshot(bool ?mainMonitorOnly = false)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "mainMonitorOnly",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/media"
+  },
+  {
+   "family": "media",
+   "name": "takeVideo",
+   "title": "",
+   "signature": "takeVideo(cameraOrientation ?camera = \"Front\", videoQuality ?quality = \"High\", recordingStart ?recordingStart = \"Immediately\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "cameraOrientation",
+     "name": "camera",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "videoQuality",
+     "name": "quality",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "recordingStart",
+     "name": "recordingStart",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/media"
+  },
+  {
+   "family": "media",
+   "name": "trimVideo",
+   "title": "Trim Video",
+   "signature": "trimVideo(variable video)",
+   "summary": "Prompts the user to trim the video.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "video",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/media"
+  },
+  {
+   "family": "music",
+   "name": "addToMusic",
+   "title": "Add to Music",
+   "signature": "addToMusic(variable songs)",
+   "summary": "Add music to library.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "songs",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/music"
+  },
+  {
+   "family": "music",
+   "name": "addToPlaylist",
+   "title": "Add to Playlist",
+   "signature": "addToPlaylist(text playlistName, variable songs)",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "playlistName",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "variable",
+     "name": "songs",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/music"
+  },
+  {
+   "family": "music",
+   "name": "clearUpNext",
+   "title": "Clear Up Next",
+   "signature": "clearUpNext()",
+   "summary": "Clear the queue.",
+   "params": [],
+   "returns": null,
+   "include": "actions/music"
+  },
+  {
+   "family": "music",
+   "name": "getCurrentSong",
+   "title": "Get Current Song",
+   "signature": "getCurrentSong()",
+   "summary": "Gets the currently playing song.",
+   "params": [],
+   "returns": null,
+   "include": "actions/music"
+  },
+  {
+   "family": "music",
+   "name": "getMusicDetail",
+   "title": "",
+   "signature": "getMusicDetail(variable music, musicDetail detail)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "music",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "musicDetail",
+     "name": "detail",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/music"
+  },
+  {
+   "family": "music",
+   "name": "getPlaylistSongs",
+   "title": "Get Playlist",
+   "signature": "getPlaylistSongs(variable playlistName): array",
+   "summary": "Gets songs from a playlist",
+   "params": [
+    {
+     "type": "variable",
+     "name": "playlistName",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "array",
+   "include": "actions/music"
+  },
+  {
+   "family": "music",
+   "name": "pause",
+   "title": "Pause",
+   "signature": "pause()",
+   "summary": "Press pause.",
+   "params": [],
+   "returns": null,
+   "include": "actions/music"
+  },
+  {
+   "family": "music",
+   "name": "play",
+   "title": "Play",
+   "signature": "play()",
+   "summary": "Press play.",
+   "params": [],
+   "returns": null,
+   "include": "actions/music"
+  },
+  {
+   "family": "music",
+   "name": "playLater",
+   "title": "Play Next",
+   "signature": "playLater(variable music)",
+   "summary": "Add music to the end of the queue.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "music",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/music"
+  },
+  {
+   "family": "music",
+   "name": "playMusic",
+   "title": "",
+   "signature": "playMusic(&variable music, shuffleMode ?shuffle, repeatMode ?repeat)",
+   "summary": "",
+   "params": [
+    {
+     "type": "&variable",
+     "name": "music",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "shuffleMode",
+     "name": "shuffle",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "repeatMode",
+     "name": "repeat",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/music"
+  },
+  {
+   "family": "music",
+   "name": "playNext",
+   "title": "Play Next",
+   "signature": "playNext(variable music)",
+   "summary": "Add music to play next in the queue.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "music",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/music"
+  },
+  {
+   "family": "music",
+   "name": "seek",
+   "title": "",
+   "signature": "seek(timeDuration ?timeInterval = qty(0, \"sec\"), seekBehavior ?behavior = \"To Time\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "timeDuration",
+     "name": "timeInterval",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "seekBehavior",
+     "name": "behavior",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/music"
+  },
+  {
+   "family": "music",
+   "name": "selectMusic",
+   "title": "Select Music",
+   "signature": "selectMusic(bool ?selectMultiple = false)",
+   "summary": "Prompt the user to select music.",
+   "params": [
+    {
+     "type": "bool",
+     "name": "selectMultiple",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/music"
+  },
+  {
+   "family": "music",
+   "name": "skipBack",
+   "title": "Skip Back",
+   "signature": "skipBack()",
+   "summary": "Go to the previous song.",
+   "params": [],
+   "returns": null,
+   "include": "actions/music"
+  },
+  {
+   "family": "music",
+   "name": "skipFwd",
+   "title": "Skip Forward",
+   "signature": "skipFwd()",
+   "summary": "Go to the next song.",
+   "params": [],
+   "returns": null,
+   "include": "actions/music"
+  },
+  {
+   "family": "music",
+   "name": "togglePlayPause",
+   "title": "Toggle Play/Pause",
+   "signature": "togglePlayPause()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/music"
+  },
+  {
+   "family": "network",
+   "name": "connectToServer",
+   "title": "Connect to Server",
+   "signature": "connectToServer(text url)",
+   "summary": "Connect to file server at `url`.",
+   "params": [
+    {
+     "type": "text",
+     "name": "url",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/network"
+  },
+  {
+   "family": "network",
+   "name": "getCellularDetail",
+   "title": "",
+   "signature": "getCellularDetail(cellularDetail detail)",
+   "summary": "",
+   "params": [
+    {
+     "type": "cellularDetail",
+     "name": "detail",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/network"
+  },
+  {
+   "family": "network",
+   "name": "getExternalIP",
+   "title": "",
+   "signature": "getExternalIP(IPTypes ?type = \"IPv4\"): text",
+   "summary": "",
+   "params": [
+    {
+     "type": "IPTypes",
+     "name": "type",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": "text",
+   "include": "actions/network"
+  },
+  {
+   "family": "network",
+   "name": "getHotspotPassword",
+   "title": "Get Hotspot Password",
+   "signature": "getHotspotPassword(): text",
+   "summary": "Get the password for your personal hotspot.",
+   "params": [],
+   "returns": "text",
+   "include": "actions/network"
+  },
+  {
+   "family": "network",
+   "name": "getLocalIP",
+   "title": "",
+   "signature": "getLocalIP(IPTypes ?type = \"IPv4\"): text",
+   "summary": "",
+   "params": [
+    {
+     "type": "IPTypes",
+     "name": "type",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": "text",
+   "include": "actions/network"
+  },
+  {
+   "family": "network",
+   "name": "getWifiDetail",
+   "title": "",
+   "signature": "getWifiDetail(wifiDetail detail)",
+   "summary": "",
+   "params": [
+    {
+     "type": "wifiDetail",
+     "name": "detail",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/network"
+  },
+  {
+   "family": "network",
+   "name": "isOnline",
+   "title": "Is Online",
+   "signature": "isOnline()",
+   "summary": "Determine if the user is online. Alias for get Get External IP.",
+   "params": [],
+   "returns": null,
+   "include": "actions/network"
+  },
+  {
+   "family": "network",
+   "name": "runSSHScript",
+   "title": "",
+   "signature": "runSSHScript(text script, variable input, text host, text port, text user, SSHScriptAuthType authType, text password)",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "script",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "host",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "port",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "user",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "SSHScriptAuthType",
+     "name": "authType",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "password",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/network"
+  },
+  {
+   "family": "network",
+   "name": "setHotspotPassword",
+   "title": "Set Personal Hotspot Password",
+   "signature": "setHotspotPassword(text newPassword)",
+   "summary": "Update the password to your personal hotspot.",
+   "params": [
+    {
+     "type": "text",
+     "name": "newPassword",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/network"
+  },
+  {
+   "family": "pdf",
+   "name": "getPDFText",
+   "title": "Get PDF Text",
+   "signature": "getPDFText(variable pdfFile, bool ?richText = false, bool ?combinePages = true, text ?headerText, text ?footerText)",
+   "summary": "Get text from PDF.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "pdfFile",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "richText",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "bool",
+     "name": "combinePages",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "text",
+     "name": "headerText",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "footerText",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/pdf"
+  },
+  {
+   "family": "pdf",
+   "name": "makeImageFromPDFPage",
+   "title": "",
+   "signature": "makeImageFromPDFPage(variable pdf, colorSpace ?colorSpace = \"RGB\", text ?pageResolution = \"300\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "pdf",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "colorSpace",
+     "name": "colorSpace",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "text",
+     "name": "pageResolution",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/pdf"
+  },
+  {
+   "family": "pdf",
+   "name": "makePDF",
+   "title": "",
+   "signature": "makePDF(variable input, bool ?includeMargin = false, PDFMergeBehaviors ?mergeBehavior = \"Append\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "includeMargin",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "PDFMergeBehaviors",
+     "name": "mergeBehavior",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/pdf"
+  },
+  {
+   "family": "pdf",
+   "name": "optimizePDF",
+   "title": "Optimize PDF",
+   "signature": "optimizePDF(variable pdfFile)",
+   "summary": "Returns a compressed version of the PDF.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "pdfFile",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/pdf"
+  },
+  {
+   "family": "pdf",
+   "name": "splitPDF",
+   "title": "Split PDF",
+   "signature": "splitPDF(variable pdf): array",
+   "summary": "Splits a PDF into pages.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "pdf",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "array",
+   "include": "actions/pdf"
+  },
+  {
+   "family": "photos",
+   "name": "createAlbum",
+   "title": "Create Album",
+   "signature": "createAlbum(text name, variable ?images)",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "name",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "variable",
+     "name": "images",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/photos"
+  },
+  {
+   "family": "photos",
+   "name": "deletePhotos",
+   "title": "Delete Photos",
+   "signature": "deletePhotos(variable photos)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "photos",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/photos"
+  },
+  {
+   "family": "photos",
+   "name": "getLastImport",
+   "title": "Get Last Import",
+   "signature": "getLastImport()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/photos"
+  },
+  {
+   "family": "photos",
+   "name": "getLatestBursts",
+   "title": "Get Latest Bursts",
+   "signature": "getLatestBursts(number count)",
+   "summary": "",
+   "params": [
+    {
+     "type": "number",
+     "name": "count",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/photos"
+  },
+  {
+   "family": "photos",
+   "name": "getLatestLivePhotos",
+   "title": "Get Latest Live Photos",
+   "signature": "getLatestLivePhotos(number count)",
+   "summary": "",
+   "params": [
+    {
+     "type": "number",
+     "name": "count",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/photos"
+  },
+  {
+   "family": "photos",
+   "name": "getLatestPhotos",
+   "title": "Get Latest Photos",
+   "signature": "getLatestPhotos(number count, bool ?includeScreenshots = true)",
+   "summary": "",
+   "params": [
+    {
+     "type": "number",
+     "name": "count",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "includeScreenshots",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/photos"
+  },
+  {
+   "family": "photos",
+   "name": "getLatestScreenshots",
+   "title": "Get Latest Screenshots",
+   "signature": "getLatestScreenshots(number count)",
+   "summary": "",
+   "params": [
+    {
+     "type": "number",
+     "name": "count",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/photos"
+  },
+  {
+   "family": "photos",
+   "name": "getLatestVideos",
+   "title": "Get Latest Videos",
+   "signature": "getLatestVideos(number count)",
+   "summary": "",
+   "params": [
+    {
+     "type": "number",
+     "name": "count",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/photos"
+  },
+  {
+   "family": "photos",
+   "name": "removeFromAlbum",
+   "title": "Remove Photo from Album",
+   "signature": "removeFromAlbum(variable photo, text album)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "photo",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "album",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/photos"
+  },
+  {
+   "family": "photos",
+   "name": "renameAlbum",
+   "title": "Rename Album",
+   "signature": "renameAlbum(variable album, text newTitle)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "album",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "newTitle",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/photos"
+  },
+  {
+   "family": "photos",
+   "name": "savePhoto",
+   "title": "Save Photo to Album",
+   "signature": "savePhoto(variable image, text ?album = \"Recents\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "image",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "album",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/photos"
+  },
+  {
+   "family": "photos",
+   "name": "searchPhotos",
+   "title": "Search Photos",
+   "signature": "searchPhotos(text criteria): array",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "criteria",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "array",
+   "include": "actions/photos"
+  },
+  {
+   "family": "photos",
+   "name": "selectPhotos",
+   "title": "Select Photos",
+   "signature": "selectPhotos(bool ?selectMultiple = false)",
+   "summary": "Prompt the user to select from their photo library.",
+   "params": [
+    {
+     "type": "bool",
+     "name": "selectMultiple",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/photos"
+  },
+  {
+   "family": "settings",
+   "name": "DNDOff",
+   "title": "Turn Off Do Not Disturb",
+   "signature": "DNDOff()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/settings"
+  },
+  {
+   "family": "settings",
+   "name": "DNDOn",
+   "title": "Turn On Do Not Disturb",
+   "signature": "DNDOn()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/settings"
+  },
+  {
+   "family": "settings",
+   "name": "darkMode",
+   "title": "Set Appearance to Dark",
+   "signature": "darkMode()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/settings"
+  },
+  {
+   "family": "settings",
+   "name": "getAllWallpapers",
+   "title": "Get Wallpapers",
+   "signature": "getAllWallpapers(): array",
+   "summary": "Get device wallpapers.",
+   "params": [],
+   "returns": "array",
+   "include": "actions/settings"
+  },
+  {
+   "family": "settings",
+   "name": "getFocusMode",
+   "title": "Get Focus Mode",
+   "signature": "getFocusMode()",
+   "summary": "Get the current Focus Mode.",
+   "params": [],
+   "returns": null,
+   "include": "actions/settings"
+  },
+  {
+   "family": "settings",
+   "name": "getMultitaskingMode",
+   "title": "Get Multitasking Mode",
+   "signature": "getMultitaskingMode(): text",
+   "summary": "Get the current multitasking mode.",
+   "params": [],
+   "returns": "text",
+   "include": "actions/settings"
+  },
+  {
+   "family": "settings",
+   "name": "getWallpaper",
+   "title": "Get Wallpaper",
+   "signature": "getWallpaper()",
+   "summary": "Get current device wallpaper.",
+   "params": [],
+   "returns": null,
+   "include": "actions/settings"
+  },
+  {
+   "family": "settings",
+   "name": "lightMode",
+   "title": "Set Appearance to Light",
+   "signature": "lightMode()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/settings"
+  },
+  {
+   "family": "settings",
+   "name": "setFocusMode",
+   "title": "",
+   "signature": "setFocusMode(focusModes ?focusMode = \"Do Not Disturb\", focusUntil ?until = \"Turned Off\", text ?time, variable ?event)",
+   "summary": "",
+   "params": [
+    {
+     "type": "focusModes",
+     "name": "focusMode",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "focusUntil",
+     "name": "until",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "text",
+     "name": "time",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "variable",
+     "name": "event",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/settings"
+  },
+  {
+   "family": "settings",
+   "name": "setNightShift",
+   "title": "Set Night Shift",
+   "signature": "setNightShift(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/settings"
+  },
+  {
+   "family": "settings",
+   "name": "setStageManager",
+   "title": "Set Stage Manager",
+   "signature": "setStageManager(bool status, bool ?showDock = true, bool ?showRecentApps = true)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "showDock",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "bool",
+     "name": "showRecentApps",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/settings"
+  },
+  {
+   "family": "settings",
+   "name": "setStageManagerMultitasking",
+   "title": "Set Stage Manager Multitasking Mode",
+   "signature": "setStageManagerMultitasking(bool ?automaticallyShowAndHideDock, bool ?showRecentApps)",
+   "summary": "Set the multitasking mode to Stage Manager. Applies to iPadOS and macOS only.",
+   "params": [
+    {
+     "type": "bool",
+     "name": "automaticallyShowAndHideDock",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "showRecentApps",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/settings"
+  },
+  {
+   "family": "settings",
+   "name": "setTrueTone",
+   "title": "Set True Tone",
+   "signature": "setTrueTone(bool status)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "status",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/settings"
+  },
+  {
+   "family": "settings",
+   "name": "setWallpaper",
+   "title": "Set Wallpaper",
+   "signature": "setWallpaper(variable input)",
+   "summary": "Sets the device wallpaper to `input`.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/settings"
+  },
+  {
+   "family": "settings",
+   "name": "setWindowedMultitasking",
+   "title": "Set Windowed Multitasking Mode",
+   "signature": "setWindowedMultitasking(bool ?automaticallyShowAndHideDock)",
+   "summary": "Set the multitasking mode to windowed. Applies to iPadOS and macOS only.",
+   "params": [
+    {
+     "type": "bool",
+     "name": "automaticallyShowAndHideDock",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/settings"
+  },
+  {
+   "family": "settings",
+   "name": "toggleAppearance",
+   "title": "Toggle Appearance",
+   "signature": "toggleAppearance()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/settings"
+  },
+  {
+   "family": "settings",
+   "name": "toggleDND",
+   "title": "Toggle Do Not Disturb",
+   "signature": "toggleDND()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/settings"
+  },
+  {
+   "family": "settings",
+   "name": "toggleFocusMode",
+   "title": "",
+   "signature": "toggleFocusMode(focusModes ?focusMode = \"Do Not Disturb\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "focusModes",
+     "name": "focusMode",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/settings"
+  },
+  {
+   "family": "settings",
+   "name": "toggleNightShift",
+   "title": "Toggle Night Shift",
+   "signature": "toggleNightShift()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/settings"
+  },
+  {
+   "family": "settings",
+   "name": "toggleStageManager",
+   "title": "Toggle Stage Manager",
+   "signature": "toggleStageManager(bool ?showDock = true, bool ?showRecentApps = true)",
+   "summary": "",
+   "params": [
+    {
+     "type": "bool",
+     "name": "showDock",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "bool",
+     "name": "showRecentApps",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/settings"
+  },
+  {
+   "family": "settings",
+   "name": "toggleTrueTone",
+   "title": "Toggle True Tone",
+   "signature": "toggleTrueTone()",
+   "summary": "",
+   "params": [],
+   "returns": null,
+   "include": "actions/settings"
+  },
+  {
+   "family": "sharing",
+   "name": "airdrop",
+   "title": "AirDrop",
+   "signature": "airdrop(variable input)",
+   "summary": "Prompt the user to AirDrop `input`.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/sharing"
+  },
+  {
+   "family": "sharing",
+   "name": "findConversation",
+   "title": "Find Conversation",
+   "signature": "findConversation(text search)",
+   "summary": "Find SMS/iMessage conversation.",
+   "params": [
+    {
+     "type": "text",
+     "name": "search",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/sharing"
+  },
+  {
+   "family": "sharing",
+   "name": "findEmail",
+   "title": "Find Email",
+   "signature": "findEmail(text search)",
+   "summary": "Find email.",
+   "params": [
+    {
+     "type": "text",
+     "name": "search",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/sharing"
+  },
+  {
+   "family": "sharing",
+   "name": "findMessage",
+   "title": "Find Message",
+   "signature": "findMessage(text search)",
+   "summary": "Find SMS/iMessage message.",
+   "params": [
+    {
+     "type": "text",
+     "name": "search",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/sharing"
+  },
+  {
+   "family": "sharing",
+   "name": "getClipboard",
+   "title": "Get Clipboard",
+   "signature": "getClipboard()",
+   "summary": "Get the contents of the clipboard.",
+   "params": [],
+   "returns": null,
+   "include": "actions/sharing"
+  },
+  {
+   "family": "sharing",
+   "name": "sendEmail",
+   "title": "Send Email",
+   "signature": "sendEmail(variable contact, text from, text subject, text body, bool ?prompt = true, bool ?draft = false)",
+   "summary": "Send an email to a contact.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "contact",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "from",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "subject",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "body",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "prompt",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "bool",
+     "name": "draft",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/sharing"
+  },
+  {
+   "family": "sharing",
+   "name": "sendMessage",
+   "title": "Send Message",
+   "signature": "sendMessage(variable contact, text message, bool ?prompt = true)",
+   "summary": "Send an SMS/iMessage to a contact.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "contact",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "message",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "prompt",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/sharing"
+  },
+  {
+   "family": "sharing",
+   "name": "setAirdropReceiving",
+   "title": "",
+   "signature": "setAirdropReceiving(airdropReceivingStates ?state = \"Everyone\")",
+   "summary": "",
+   "params": [
+    {
+     "type": "airdropReceivingStates",
+     "name": "state",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/sharing"
+  },
+  {
+   "family": "sharing",
+   "name": "setClipboard",
+   "title": "Set Clipboard",
+   "signature": "setClipboard(variable value, bool ?local = false, text ?expire)",
+   "summary": "Set the contents of the clipboard.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "value",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "local",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "text",
+     "name": "expire",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/sharing"
+  },
+  {
+   "family": "sharing",
+   "name": "share",
+   "title": "Share",
+   "signature": "share(variable input)",
+   "summary": "Prompt the user to share `input`.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/sharing"
+  },
+  {
+   "family": "shortcuts",
+   "name": "createShortcutLink",
+   "title": "Create Shortcut Link",
+   "signature": "createShortcutLink(variable shortcut)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "shortcut",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/shortcuts"
+  },
+  {
+   "family": "shortcuts",
+   "name": "getShortcutDetail",
+   "title": "",
+   "signature": "getShortcutDetail(variable shortcut, shortcutDetail detail)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "shortcut",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "shortcutDetail",
+     "name": "detail",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/shortcuts"
+  },
+  {
+   "family": "shortcuts",
+   "name": "getShortcuts",
+   "title": "Get Shortcuts",
+   "signature": "getShortcuts(): array",
+   "summary": "Get all of the Shortcuts on the device.",
+   "params": [],
+   "returns": "array",
+   "include": "actions/shortcuts"
+  },
+  {
+   "family": "shortcuts",
+   "name": "makeShortcut",
+   "title": "Make Shortcut",
+   "signature": "makeShortcut(text name, bool ?open = true)",
+   "summary": "Create a shortcut.",
+   "params": [
+    {
+     "type": "text",
+     "name": "name",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "open",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/shortcuts"
+  },
+  {
+   "family": "shortcuts",
+   "name": "openShortcut",
+   "title": "Open Shortcut",
+   "signature": "openShortcut(text shortcutName)",
+   "summary": "Open a shortcut in the Shortcuts app.",
+   "params": [
+    {
+     "type": "text",
+     "name": "shortcutName",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/shortcuts"
+  },
+  {
+   "family": "shortcuts",
+   "name": "run",
+   "title": "Run Shortcut",
+   "signature": "run(text shortcutName, variable input)",
+   "summary": "Run Shortcut with name `shortcutName`, providing it with `input`.",
+   "params": [
+    {
+     "type": "text",
+     "name": "shortcutName",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/shortcuts"
+  },
+  {
+   "family": "shortcuts",
+   "name": "runSelf",
+   "title": "Run Self",
+   "signature": "runSelf(variable output)",
+   "summary": "Run the current Shortcut with optional output.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "output",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/shortcuts"
+  },
+  {
+   "family": "shortcuts",
+   "name": "searchShortcuts",
+   "title": "Search Shortcuts",
+   "signature": "searchShortcuts(text query)",
+   "summary": "Search the users Shortcuts.",
+   "params": [
+    {
+     "type": "text",
+     "name": "query",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/shortcuts"
+  },
+  {
+   "family": "storage",
+   "name": "deleteStoredValue",
+   "title": "Delete Stored Content",
+   "signature": "deleteStoredValue(text key, bool ?global = false)",
+   "summary": "Delete previously stored content, optionally globally or specific to the Shortcut.",
+   "params": [
+    {
+     "type": "text",
+     "name": "key",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "global",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/storage"
+  },
+  {
+   "family": "storage",
+   "name": "getStoredValue",
+   "title": "Get Stored Content",
+   "signature": "getStoredValue(text key, bool ?global = false)",
+   "summary": "Get previously stored content, optionally globally or specific to the Shortcut.",
+   "params": [
+    {
+     "type": "text",
+     "name": "key",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "global",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/storage"
+  },
+  {
+   "family": "storage",
+   "name": "storeValue",
+   "title": "Store Content",
+   "signature": "storeValue(text key, text value, bool ?global = false)",
+   "summary": "Store content by a key, optionally globally or specific to the Shortcut.",
+   "params": [
+    {
+     "type": "text",
+     "name": "key",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "value",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "global",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/storage"
+  },
+  {
+   "family": "text",
+   "name": "alternatingCase",
+   "title": "Alternating Case",
+   "signature": "alternatingCase(text text): text",
+   "summary": "Capitalizes the text with alternating case.",
+   "params": [
+    {
+     "type": "text",
+     "name": "text",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "capitalize",
+   "title": "Capitalize",
+   "signature": "capitalize(text text): text",
+   "summary": "Capitalizes the text with sentence case.",
+   "params": [
+    {
+     "type": "text",
+     "name": "text",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "capitalizeAll",
+   "title": "Capitalize All",
+   "signature": "capitalizeAll(text text): text",
+   "summary": "Capitalizes every word in the text.",
+   "params": [
+    {
+     "type": "text",
+     "name": "text",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "containsText",
+   "title": "Contains Text",
+   "signature": "containsText(text subject, text text, bool ?caseSensitive = true)",
+   "summary": "Uses Match Text to check if text is within subject.",
+   "params": [
+    {
+     "type": "text",
+     "name": "subject",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "text",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "caseSensitive",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "correctSpelling",
+   "title": "Correct Spelling",
+   "signature": "correctSpelling(text text): text",
+   "summary": "Corrects the spelling of the provided text.",
+   "params": [
+    {
+     "type": "text",
+     "name": "text",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "define",
+   "title": "Define",
+   "signature": "define(text word): text",
+   "summary": "Returns the definition of the word.",
+   "params": [
+    {
+     "type": "text",
+     "name": "word",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "getEmojiName",
+   "title": "Get Name of Emoji",
+   "signature": "getEmojiName(text emoji): text",
+   "summary": "Detects emoji in the text and returns its name.",
+   "params": [
+    {
+     "type": "text",
+     "name": "emoji",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "getMatchGroup",
+   "title": "Get Match Group",
+   "signature": "getMatchGroup(variable matches, number index)",
+   "summary": "Get match group at `index` in `matches`.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "matches",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "number",
+     "name": "index",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "getMatchGroups",
+   "title": "Get Match Groups",
+   "signature": "getMatchGroups(variable matches)",
+   "summary": "Get all groups in `matches`.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "matches",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "getRichTextFromHTML",
+   "title": "Make Rich Text from HTML",
+   "signature": "getRichTextFromHTML(text html): text",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "html",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "getRichTextFromMarkdown",
+   "title": "Get Rich Text from Markdown",
+   "signature": "getRichTextFromMarkdown(text markdown): text",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "markdown",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "getText",
+   "title": "Get Text",
+   "signature": "getText(variable input): text",
+   "summary": "Get text from input.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "getTextFromImage",
+   "title": "Get Text from Image",
+   "signature": "getTextFromImage(variable image): text",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "image",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "joinText",
+   "title": "Join Text",
+   "signature": "joinText(variable text, text ?glue = \"\\n\"): text",
+   "summary": "Join text by a combiner.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "text",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "glue",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": "text",
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "listen",
+   "title": "",
+   "signature": "listen(stopListeningTrigger ?stopListening = \"After Pause\", language ?language): text",
+   "summary": "",
+   "params": [
+    {
+     "type": "stopListeningTrigger",
+     "name": "stopListening",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "language",
+     "name": "language",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "lowercase",
+   "title": "Lowercase",
+   "signature": "lowercase(text text): text",
+   "summary": "Transforms the text to all lowercase.",
+   "params": [
+    {
+     "type": "text",
+     "name": "text",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "makeHTML",
+   "title": "Make HTML",
+   "signature": "makeHTML(text input, bool ?makeFullDocument = false): text",
+   "summary": "Make HTML from Rich Text.",
+   "params": [
+    {
+     "type": "text",
+     "name": "input",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "makeFullDocument",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": "text",
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "makeMarkdown",
+   "title": "Make Markdown",
+   "signature": "makeMarkdown(text richText): text",
+   "summary": "Make Markdown from Rich Text.",
+   "params": [
+    {
+     "type": "text",
+     "name": "richText",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "makeSpokenAudio",
+   "title": "Make Spoken Audio",
+   "signature": "makeSpokenAudio(text text, number ?rate, number ?pitch)",
+   "summary": "Creates custom spoken audio from text with controls for rate and pitch.",
+   "params": [
+    {
+     "type": "text",
+     "name": "text",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "number",
+     "name": "rate",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "number",
+     "name": "pitch",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "matchText",
+   "title": "Match Text",
+   "signature": "matchText(text regexPattern, text text, bool ?caseSensitive = true)",
+   "summary": "Use regular expressions to match text. Use raw text (single quotes) to match using an regular expression with braces to avoid conflicts with the regular expression syntax.",
+   "params": [
+    {
+     "type": "text",
+     "name": "regexPattern",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "text",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "caseSensitive",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "replaceText",
+   "title": "Replace Text",
+   "signature": "replaceText(text find, text replacement, text subject, bool ?caseSensitive = true, bool ?regExp = false): text",
+   "summary": "Replace `find` in `subject`, optionally using a regular expression or case insensitive search. Use raw text (single quotes) to match using an regular expression with braces to avoid conflicts with the regular expression syntax.",
+   "params": [
+    {
+     "type": "text",
+     "name": "find",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "replacement",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "subject",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "caseSensitive",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "bool",
+     "name": "regExp",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": "text",
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "speak",
+   "title": "Speak",
+   "signature": "speak(text prompt, bool ?waitUntilFinished = true, text ?language)",
+   "summary": "Speaks the provided text, optionally in another language.",
+   "params": [
+    {
+     "type": "text",
+     "name": "prompt",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "waitUntilFinished",
+     "optional": true,
+     "default": ""
+    },
+    {
+     "type": "text",
+     "name": "language",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "splitText",
+   "title": "Split Text",
+   "signature": "splitText(text text, text ?separator = \"\\n\"): array",
+   "summary": "Split text by a separator.",
+   "params": [
+    {
+     "type": "text",
+     "name": "text",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "separator",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": "array",
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "titleCase",
+   "title": "Title Case",
+   "signature": "titleCase(text text): text",
+   "summary": "Capitalizes the text with Title Case.",
+   "params": [
+    {
+     "type": "text",
+     "name": "text",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "transcribeText",
+   "title": "Transcribe Audio",
+   "signature": "transcribeText(variable audio): text",
+   "summary": "Transcribes text from the provided audio.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "audio",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "trimWhitespace",
+   "title": "Trim Whitespace",
+   "signature": "trimWhitespace(text text): text",
+   "summary": "Trim any whitespace from the start and end of `text`.",
+   "params": [
+    {
+     "type": "text",
+     "name": "text",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/text"
+  },
+  {
+   "family": "text",
+   "name": "uppercase",
+   "title": "Uppercase",
+   "signature": "uppercase(text text): text",
+   "summary": "Transforms the text to all uppercase.",
+   "params": [
+    {
+     "type": "text",
+     "name": "text",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/text"
+  },
+  {
+   "family": "translation",
+   "name": "detectLanguage",
+   "title": "Detect Language",
+   "signature": "detectLanguage(text input): text",
+   "summary": "Detect the language of the text in `input`.",
+   "params": [
+    {
+     "type": "text",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/translation"
+  },
+  {
+   "family": "translation",
+   "name": "translate",
+   "title": "",
+   "signature": "translate(text text, translationLanguage to, translationLanguage ?from = \"Detected language\"): text",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "text",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "translationLanguage",
+     "name": "to",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "translationLanguage",
+     "name": "from",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": "text",
+   "include": "actions/translation"
+  },
+  {
+   "family": "web",
+   "name": "addToReadingList",
+   "title": "Add to Reading List",
+   "signature": "addToReadingList(text ...url)",
+   "summary": "Add a link to the reading list.",
+   "params": [
+    {
+     "type": "text",
+     "name": "...url",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "downloadURL",
+   "title": "Download URL",
+   "signature": "downloadURL(text url, dictionary! ?headers): variable",
+   "summary": "Download the contents of a URL.",
+   "params": [
+    {
+     "type": "text",
+     "name": "url",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "dictionary!",
+     "name": "headers",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": "variable",
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "expandURL",
+   "title": "Expand URL",
+   "signature": "expandURL(text url)",
+   "summary": "Get the expanded version of a URL. For instance, returns the full URL for a short URL, or the URL which a URL immediately redirects to, etc.",
+   "params": [
+    {
+     "type": "text",
+     "name": "url",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "fileRequest",
+   "title": "",
+   "signature": "fileRequest(text url, HTTPMethod ?method, variable ?body, dictionary! ?headers)",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "url",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "HTTPMethod",
+     "name": "method",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "variable",
+     "name": "body",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "dictionary!",
+     "name": "headers",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "formRequest",
+   "title": "",
+   "signature": "formRequest(text url, HTTPMethod ?method, dictionary! ?body, dictionary! ?headers)",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "url",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "HTTPMethod",
+     "name": "method",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "dictionary!",
+     "name": "body",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "dictionary!",
+     "name": "headers",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "getArticle",
+   "title": "Get Article",
+   "signature": "getArticle(text webpage)",
+   "summary": "Get article from webpage.",
+   "params": [
+    {
+     "type": "text",
+     "name": "webpage",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "getArticleDetail",
+   "title": "Get Article Detail",
+   "signature": "getArticleDetail(variable article, text detail)",
+   "summary": "Get a detail about an article.",
+   "params": [
+    {
+     "type": "variable",
+     "name": "article",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "detail",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "getCurrentURL",
+   "title": "Get Current URL",
+   "signature": "getCurrentURL()",
+   "summary": "Get current URL in Safari.",
+   "params": [],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "getGifs",
+   "title": "Get GIFs from Giphy",
+   "signature": "getGifs(text query, number ?gifs = 1)",
+   "summary": "Gets a number of GIFs from Giphy for a search query.",
+   "params": [
+    {
+     "type": "text",
+     "name": "query",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "number",
+     "name": "gifs",
+     "optional": true,
+     "default": ""
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "getRSS",
+   "title": "Get RSS",
+   "signature": "getRSS(number items, text url)",
+   "summary": "Get RSS feed contents at URL. Limited by number of items.",
+   "params": [
+    {
+     "type": "number",
+     "name": "items",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "url",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "getRSSFeeds",
+   "title": "Get RSS Feeds",
+   "signature": "getRSSFeeds(text urls)",
+   "summary": "Get feeds from multiple URLs.",
+   "params": [
+    {
+     "type": "text",
+     "name": "urls",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "getURLDetail",
+   "title": "",
+   "signature": "getURLDetail(text url, URLDetail detail)",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "url",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "URLDetail",
+     "name": "detail",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "getURLHeaders",
+   "title": "Get URL Headers",
+   "signature": "getURLHeaders(text url)",
+   "summary": "Get the headers from a URL.",
+   "params": [
+    {
+     "type": "text",
+     "name": "url",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "getURLs",
+   "title": "Get URLs",
+   "signature": "getURLs(text input): array",
+   "summary": "Get URLs from `input`.",
+   "params": [
+    {
+     "type": "text",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "array",
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "getWebPageDetail",
+   "title": "",
+   "signature": "getWebPageDetail(variable webpage, webpageDetail detail)",
+   "summary": "",
+   "params": [
+    {
+     "type": "variable",
+     "name": "webpage",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "webpageDetail",
+     "name": "detail",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "getWebpageContents",
+   "title": "Get Webpage Contents",
+   "signature": "getWebpageContents(text url)",
+   "summary": "Get contents of Webpage from Safari.",
+   "params": [
+    {
+     "type": "text",
+     "name": "url",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "jsonRequest",
+   "title": "",
+   "signature": "jsonRequest(text url, HTTPMethod ?method, dictionary! ?body, dictionary! ?headers)",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "url",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "HTTPMethod",
+     "name": "method",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "dictionary!",
+     "name": "body",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "dictionary!",
+     "name": "headers",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "openCustomXCallbackURL",
+   "title": "Open Custom X-Callback URL",
+   "signature": "openCustomXCallbackURL(text url, text ?successKey, text ?cancelKey, text ?errorKey, text ?successURL)",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "url",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "successKey",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "cancelKey",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "errorKey",
+     "optional": true,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "successURL",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "openURL",
+   "title": "Open URL",
+   "signature": "openURL(text url)",
+   "summary": "Open URL in default browser.",
+   "params": [
+    {
+     "type": "text",
+     "name": "url",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "openXCallbackURL",
+   "title": "Open X-Callback URL",
+   "signature": "openXCallbackURL(text url)",
+   "summary": "",
+   "params": [
+    {
+     "type": "text",
+     "name": "url",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "runJavaScriptOnWebpage",
+   "title": "Run JavaScript on Webpage",
+   "signature": "runJavaScriptOnWebpage(text javascript)",
+   "summary": "Run some custom JavaScript on the current webpage in Safari.",
+   "params": [
+    {
+     "type": "text",
+     "name": "javascript",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "searchGiphy",
+   "title": "Search Giphy",
+   "signature": "searchGiphy(text query)",
+   "summary": "Gets GIFs from Giphy for a search query.",
+   "params": [
+    {
+     "type": "text",
+     "name": "query",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "searchWeb",
+   "title": "",
+   "signature": "searchWeb(searchEngine engine, text query)",
+   "summary": "",
+   "params": [
+    {
+     "type": "searchEngine",
+     "name": "engine",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "text",
+     "name": "query",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "showWebpage",
+   "title": "Show Webpage",
+   "signature": "showWebpage(text url, bool ?useReader)",
+   "summary": "Show webpage using Safari.",
+   "params": [
+    {
+     "type": "text",
+     "name": "url",
+     "optional": false,
+     "default": null
+    },
+    {
+     "type": "bool",
+     "name": "useReader",
+     "optional": true,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "url",
+   "title": "URL",
+   "signature": "url(text ...url)",
+   "summary": "Create a URL value.",
+   "params": [
+    {
+     "type": "text",
+     "name": "...url",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": null,
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "urlDecode",
+   "title": "URL Decode",
+   "signature": "urlDecode(text input): text",
+   "summary": "Decode text from URL encoding.",
+   "params": [
+    {
+     "type": "text",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/web"
+  },
+  {
+   "family": "web",
+   "name": "urlEncode",
+   "title": "URL Encode",
+   "signature": "urlEncode(text input): text",
+   "summary": "Encode text for a URL.",
+   "params": [
+    {
+     "type": "text",
+     "name": "input",
+     "optional": false,
+     "default": null
+    }
+   ],
+   "returns": "text",
+   "include": "actions/web"
+  }
+ ]
+}

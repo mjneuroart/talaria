@@ -1,0 +1,22 @@
+# Authors
+
+## Talaria
+
+- **Mike-Jeason Leca** — product design, tool surface, sandbox and signing pipeline,
+  audit rules, this packaging.
+- **the earlier prototype's author** — original `hermes-shortcuts-builder`, the source-first product
+  contract, the alert-template baseline this work grew from.
+
+## Upstream lineage
+
+Talaria is derived from [`an earlier internal prototype`](an earlier internal prototype)
+(MIT). The original three-tool surface and its "the model writes the source, the tool
+does not" contract are the earlier author's. Everything Talaria adds — sandboxed compilation, artifact
+library, AEA1 decoding, signing consent, action corpus, audit pass — is new here.
+
+## Third-party
+
+Cherri (https://github.com/electrikmilk/cherri) is invoked as a separate process and is
+not linked into or redistributed with this plugin. Its own licence (GPL-2.0) governs that
+binary. Apple, iOS and Shortcuts are trademarks of Apple Inc.; this project is not
+affiliated with or endorsed by Apple.
