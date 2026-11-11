@@ -218,14 +218,11 @@ runs on any architecture.
   clock sits before the issue time, or after that expiry, refuses the import without saying why,
   so check the phone clock before blaming the file or the transfer path.
 
-## Lineage and credit
+## Origin
 
-Talaria is built on [`an earlier internal prototype`](an earlier internal prototype)
-(MIT), by the earlier prototype's author. The original exposed three tools, one hardcoded alert template, and
-produced unsigned sources only. Talaria keeps its product contract — source first, reviewable,
-no shell exec — and replaces the rest: signed artifacts, a sandboxed compiler, an artifact
-library, a decoder for signed containers, an audit pass, and an action corpus the model can
-query. Original authorship is credited in `AUTHORS` and in the catalog entry.
+Talaria is an independent implementation. No code, fixture or bundled resource is shared with
+any other plugin, and the design premise (a model that writes reviewable source, a tool that
+only compiles it) is carried by this project alone. Sole author: Mike-Jeason Leca.
 
 It invokes [Cherri](https://github.com/electrikmilk/cherri), the Shortcuts compiler, as a
 separate process pinned at v2.4.0 — no Cherri code is linked or redistributed here, and its

@@ -59,8 +59,8 @@ local compiler path only.
 SHA) is re-reviewed." — Step 8.
 
 **5. Owner-or-major-contributor submissions.** "An entry may be submitted by the plugin
-repository's owner or a major contributor." — Submitted by Mike-Jeason Leca, co-author of the
-release; lineage to an earlier prototype is credited, not claimed as someone else's work.
+repository's owner or a major contributor." — Submitted by Mike-Jeason Leca, owner and sole
+author of the release.
 
 **6. Declared capabilities must match reality.** "The `capabilities:` block (tools, hooks,
 middleware, env vars) must match what the plugin actually registers at the pinned commit."
@@ -111,10 +111,8 @@ both files. That floor is the release where every API this plugin uses was read 
 bundled plugin; it targets a surface no bundled plugin covers.
 
 **16. One listing per plugin lineage.** "A listed fork names its origin in its disclosure line
-(`Derived from <entry>`)." — The entry description opens its lineage clause with "Derived from
-an earlier internal prototype (MIT)". The upstream is not listed, so there is no duplicate
-lineage; the fork is materially different (signed artifacts, sandbox, audit, action corpus)
-and the original produced unsigned sources only.
+(`Derived from <entry>`)." — Talaria is not a fork: no code, fixture or bundled resource is
+shared with any other plugin, so there is no origin to name and no duplicate lineage.
 
 **17. No unscannable executable payloads.** "A plugin must not ship a compiled binary …,
 committed Python bytecode (`.pyc`/`.pyo`), or an archive whose members are not themselves

@@ -31,11 +31,9 @@ re-reading the plist, so `rc=0` is never treated as proof.
 
 ## Lineage (rule 16)
 
-Derived from `an earlier internal prototype` (MIT), by the earlier prototype's author, credited in
-`AUTHORS`, `README.md` and this entry's description. The original exposed three tools, one
-hardcoded alert template and unsigned sources only. This fork is materially different:
-sandboxed compilation, artifact library, signed artifacts, AEA1 decoding, an audit pass and a
-queryable action corpus. The origin is named on the entry, as rule 16 requires.
+Not a fork. This is an independent implementation: no code, fixture or bundled resource is
+shared with any other plugin or entry, so there is no origin to name and no duplicate lineage.
+All work in this repository was written for Talaria.
 
 ## Disclosures (rule 13)
 

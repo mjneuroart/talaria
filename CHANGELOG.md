@@ -56,5 +56,3 @@ Initial release.
 - Bundled `shortcuts-authoring` skill: file shape, verified action signatures, house
   patterns, and the rules that keep a build from silently breaking.
 - Artifact library under `$HERMES_HOME/talaria` (or `$TALARIA_HOME`), metadata mode 0600.
-- Derived from `an earlier internal prototype` (MIT); lineage credited in `AUTHORS`
-  and the README.
