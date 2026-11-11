@@ -13,6 +13,7 @@ const relativeTime = sdk.relativeTime
 // a renderer only wins for tools whose backend owner package == this package.
 const TOOLS = [
   'talaria_status',
+  'talaria_setup',
   'talaria_actions',
   'talaria_build',
   'talaria_sign',
@@ -39,6 +40,61 @@ const C = {
 
 const MONO = 'var(--font-mono)'
 const SANS = 'var(--font-sans)'
+
+// ---------------------------------------------------------------- brand (da/BRAND.md)
+// The panel carries the talaria field, the wordmark and one seal. Values are the
+// brand sheet's tokens: field 2843F1, navy 000F3B, ink D5DAF7, ochre EDB030.
+// They are scoped to the masthead only, so the workspace theme still owns every
+// other surface (DESKTOP-SDK Q5: no hardcoded hex outside this block).
+const BRAND = {
+  field: '#2843F1',
+  navy: '#000F3B',
+  ink: '#D5DAF7',
+  inkSoft: '#BAC5F1',
+  ochre: '#EDB030'
+}
+const DISPLAY = '"Cinzel", "Playfair Display", Georgia, serif'
+const SERIF = '"Cormorant Garamond", Georgia, serif'
+
+// Masthead: navy plate, TALARIA in Cinzel tracked, one ochre seal, tagline in Cormorant.
+function Masthead({ signedCount }) {
+  return jsxs('div', {
+    'data-talaria': 'masthead',
+    style: {
+      background: BRAND.navy,
+      color: BRAND.ink,
+      padding: '18px 20px 16px',
+      display: 'flex',
+      alignItems: 'flex-end',
+      justifyContent: 'space-between',
+      gap: 12,
+      flexWrap: 'wrap',
+      borderBottom: '2px solid ' + BRAND.field
+    },
+    children: [
+      jsxs('div', { style: { display: 'flex', flexDirection: 'column', gap: 6 }, children: [
+        jsxs('div', { style: { display: 'flex', alignItems: 'center', gap: 10 }, children: [
+          jsx('span', {
+            style: { fontFamily: DISPLAY, fontWeight: 600, fontSize: 26, letterSpacing: '0.26em', textTransform: 'uppercase', lineHeight: 1 },
+            children: 'Talaria'
+          }),
+          jsx('span', {
+            title: 'signed artifacts',
+            style: { width: 9, height: 9, background: signedCount > 0 ? BRAND.ochre : BRAND.inkSoft, display: 'block', opacity: signedCount > 0 ? 1 : 0.45 }
+          })
+        ] }),
+        jsx('span', {
+          style: { fontFamily: SERIF, fontSize: 14, color: BRAND.inkSoft, letterSpacing: '0.01em' },
+          children: 'Apple Shortcuts for Hermes. Built, signed and delivered with no Mac.'
+        })
+      ] }),
+      jsx('span', {
+        style: { fontFamily: MONO, fontSize: 10, letterSpacing: '0.18em', textTransform: 'uppercase', color: BRAND.inkSoft },
+        children: 'shortcut bench'
+      })
+    ]
+  })
+}
 const label = { fontFamily: MONO, fontSize: 10, letterSpacing: '0.09em', textTransform: 'uppercase', color: C.text3 }
 const figure = { fontFamily: MONO, fontSize: 12, fontVariantNumeric: 'tabular-nums', color: C.text }
 const hair = { height: 1, background: C.rule, border: 0, margin: 0 }
@@ -320,9 +376,23 @@ function ToolCard({ toolName, result, sessionId, fallback, os }) {
   })
 }
 
+// sdk.relativeTime takes epoch milliseconds and throws on anything that is not a finite
+// number. The backend sends ISO strings ("2026-11-11T14:12:36+0100"), so convert first and
+// fall back to the raw value instead of taking the whole page down.
+function toMillis(value) {
+  if (typeof value === 'number') return value < 1e12 ? value * 1000 : value
+  if (typeof value !== 'string' || !value) return NaN
+  return Date.parse(value.replace(/([+-]\d{2})(\d{2})$/, '$1:$2'))
+}
+
 function safeTime(value) {
-  const rel = typeof relativeTime === 'function' ? relativeTime(value) : ''
-  return rel || value
+  const ms = toMillis(value)
+  if (!Number.isFinite(ms) || typeof relativeTime !== 'function') return str(value)
+  try {
+    return relativeTime(ms) || str(value)
+  } catch (_) {
+    return str(value)
+  }
 }
 
 function diagnosticsBlock(m) {
@@ -376,7 +446,7 @@ function DirectiveCard({ attrs }) {
 }
 
 // ---------------------------------------------------------------- library page
-// Data path: ctx.rest('/items') -> GET /api/plugins/talaria/items (plugin_api.py).
+// Data path: ctx.rest('/items') -> GET /api/plugins/hermes-shortcuts/items (plugin_api.py).
 // Paired with the shared QueryClient via useQuery, never a hand-rolled fetch loop.
 function LibraryPage({ rest }) {
   const query = useQuery({
@@ -404,6 +474,10 @@ function LibraryPage({ rest }) {
       boxSizing: 'border-box'
     },
     children: [
+      jsx('div', {
+        style: { margin: narrow ? '-14px -14px 0' : '-20px -20px 0' },
+        children: jsx(Masthead, { signedCount: items.filter(it => it && it.signed === true).length })
+      }),
       jsxs('header', {
         style: { display: 'flex', flexDirection: 'column', gap: 4, paddingBottom: 10, borderBottom: '1px solid ' + C.rule },
         children: [
@@ -434,14 +508,14 @@ function LibraryPage({ rest }) {
           ] }),
           jsx(Ghost, {
             onClick: () => { if (query && typeof query.refetch === 'function') query.refetch() },
-            title: 'Re-read /api/plugins/talaria/items',
+            title: 'Re-read /api/plugins/hermes-shortcuts/items',
             children: 'refresh'
           })
         ]
       }),
       jsx('hr', { style: hair }),
       error
-        ? EmptyState('backend not reachable', 'the gateway mounts /api/plugins/talaria/ only while the plugin is enabled — enable it, then restart the gateway', C.bad)
+        ? EmptyState('backend not reachable', 'the gateway mounts /api/plugins/hermes-shortcuts/ only while the plugin is enabled — enable it, then restart the gateway', C.bad)
         : loading
           ? jsx('div', { style: { ...figure, color: C.text3, padding: '14px 0' }, children: 'reading library…' })
           : items.length === 0
@@ -560,7 +634,7 @@ function registerLibrary(ctx) {
 }
 
 export default {
-  id: 'talaria',
+  id: 'hermes-shortcuts', // must equal the package folder and the manifest name
   name: 'Talaria',
   register(ctx) {
     registerToolCard(ctx)
