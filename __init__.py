@@ -279,7 +279,7 @@ def _engine_missing(tool: str, detail: str) -> str:
                 "Nothing was compiled, signed, uploaded or written. "
                 f"Looked in {ENGINE_DIR} for {expected}. "
                 f"Detail: {detail}. "
-                "Fix: reinstall with 'hermes plugins install talaria', or for a source checkout "
+                "Fix: reinstall with 'hermes plugins install mjneuroart/talaria', or for a source checkout "
                 "confirm those modules sit beside __init__.py. The Cherri compiler is a separate "
                 "optional binary: talaria_status reports whether it is present."
             ),
