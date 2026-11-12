@@ -446,7 +446,7 @@ function DirectiveCard({ attrs }) {
 }
 
 // ---------------------------------------------------------------- library page
-// Data path: ctx.rest('/items') -> GET /api/plugins/hermes-shortcuts/items (plugin_api.py).
+// Data path: ctx.rest('/items') -> GET /api/plugins/talaria-shortcuts/items (plugin_api.py).
 // Paired with the shared QueryClient via useQuery, never a hand-rolled fetch loop.
 function LibraryPage({ rest }) {
   const query = useQuery({
@@ -508,14 +508,14 @@ function LibraryPage({ rest }) {
           ] }),
           jsx(Ghost, {
             onClick: () => { if (query && typeof query.refetch === 'function') query.refetch() },
-            title: 'Re-read /api/plugins/hermes-shortcuts/items',
+            title: 'Re-read /api/plugins/talaria-shortcuts/items',
             children: 'refresh'
           })
         ]
       }),
       jsx('hr', { style: hair }),
       error
-        ? EmptyState('backend not reachable', 'the gateway mounts /api/plugins/hermes-shortcuts/ only while the plugin is enabled — enable it, then restart the gateway', C.bad)
+        ? EmptyState('backend not reachable', 'the gateway mounts /api/plugins/talaria-shortcuts/ only while the plugin is enabled — enable it, then restart the gateway', C.bad)
         : loading
           ? jsx('div', { style: { ...figure, color: C.text3, padding: '14px 0' }, children: 'reading library…' })
           : items.length === 0
@@ -634,7 +634,7 @@ function registerLibrary(ctx) {
 }
 
 export default {
-  id: 'hermes-shortcuts', // must equal the package folder and the manifest name
+  id: 'talaria-shortcuts', // must equal the package folder and the manifest name
   name: 'Talaria',
   register(ctx) {
     registerToolCard(ctx)

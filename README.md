@@ -49,18 +49,18 @@ From the repository:
 hermes plugins install mjneuroart/talaria --enable
 ```
 
-From the catalog, once the entry is merged (catalog key `hermes-shortcuts`):
+From the catalog, once the entry is merged (catalog key `talaria-shortcuts`):
 
 ```bash
-hermes plugins install hermes-shortcuts --enable
+hermes plugins install talaria-shortcuts --enable
 ```
 
 From a checkout, for development (the plugin directory must be discoverable by Hermes):
 
 ```bash
-ln -s "$PWD" ~/.hermes/plugins/hermes-shortcuts
-hermes plugins validate ~/.hermes/plugins/hermes-shortcuts
-hermes plugins doctor hermes-shortcuts --ci
+ln -s "$PWD" ~/.hermes/plugins/talaria-shortcuts
+hermes plugins validate ~/.hermes/plugins/talaria-shortcuts
+hermes plugins doctor talaria-shortcuts --ci
 ```
 
 Requirements: Hermes `>=0.23.1`, Python 3.10+, and for builds only two host tools: the Cherri

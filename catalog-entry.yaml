@@ -1,7 +1,7 @@
-# Talaria — Hermes plugin catalog entry (catalog key: hermes-shortcuts).
+# Talaria — Hermes plugin catalog entry (catalog key: talaria-shortcuts).
 # Shape copied field-for-field from plugin-catalog/README.md "Entry schema".
 # `sha` is the release pin: the commit carrying version 0.3.0.
-name: hermes-shortcuts
+name: talaria-shortcuts
 title: Talaria
 repo: https://github.com/mjneuroart/talaria
 sha: "fafdb288fbabe14561be2a85a14857394b1e8dbb"
